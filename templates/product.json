@@ -54,8 +54,8 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
+            "heading": "Hoe werkt het?",
+            "icon": "question_mark",
             "content": "",
             "page": ""
           }
@@ -63,8 +63,8 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
+            "heading": "Wat is IPL eigenlijk?",
+            "icon": "star",
             "content": "",
             "page": ""
           }
@@ -72,8 +72,8 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
+            "heading": "Verzending & Retourneren",
+            "icon": "box",
             "content": "",
             "page": ""
           }
@@ -85,12 +85,6 @@
             "icon": "heart",
             "content": "",
             "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         }
       },
@@ -105,8 +99,7 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
+        "collapsible-row-3"
       ],
       "settings": {
         "enable_sticky_info": true,
