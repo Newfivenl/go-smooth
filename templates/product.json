@@ -77,15 +77,6 @@
             "content": "",
             "page": ""
           }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -98,12 +89,11 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3"
+        "collapsible-row-2"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
