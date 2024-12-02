@@ -57,6 +57,84 @@
         "show_text_below": false
       }
     },
+    "multicolumn_HPnAE7": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GwitDn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/secure_payment.png",
+            "title": "",
+            "text": "<p>Veilig betalen</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XG6HaJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5.png",
+            "title": "",
+            "text": "<p>Achteraf betalen</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xArkQM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6.png",
+            "title": "",
+            "text": "<p>1 Jaar garantie</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3qrAUn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Fast_delivery_c928b539-7191-4f85-814e-c4167928d29b.png",
+            "title": "",
+            "text": "<p>Snelle levering</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WfFiab": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "",
+            "text": "<p>Gratis verzending</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GwitDn",
+        "column_XG6HaJ",
+        "column_xArkQM",
+        "column_3qrAUn",
+        "column_WfFiab"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-7b245674-9f20-4736-a355-00cb8ed8067b",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 12
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -130,12 +208,103 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "multicolumn_dXcxAQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nrygDp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/amex.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qJBqpr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mastercard_V.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tYkQK6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DHL_148x148_9a55b29c-f9cb-42f4-a133-618bea7b5002.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Mab4Nr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/klarna-vector-logo_d0280d47-d08f-4823-8017-78e14718cea2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Whhr9L": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/iDEAL_148x148_b0c6b205-4853-4b1f-8f83-932d92320112.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_W8wXhc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Trustpilot_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nrygDp",
+        "column_qJBqpr",
+        "column_tYkQK6",
+        "column_Mab4Nr",
+        "column_Whhr9L",
+        "column_W8wXhc"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-7b245674-9f20-4736-a355-00cb8ed8067b",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
+    "multicolumn_HPnAE7",
     "rich_text",
     "featured_collection",
-    "video"
+    "video",
+    "multicolumn_dXcxAQ"
   ]
 }
