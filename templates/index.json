@@ -331,91 +331,66 @@
         "column_a7Vkcn"
       ],
       "settings": {
-        "title": "Meerdere kolommen",
+        "title": "",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Knoplabel",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 28
       }
     },
-    "slideshow_H8eWYz": {
-      "type": "slideshow",
+    "image_with_text_fnanPw": {
+      "type": "image-with-text",
       "blocks": {
-        "slide_HdJjnB": {
-          "type": "slide",
+        "heading_HThQRQ": {
+          "type": "heading",
           "settings": {
-            "heading": "Afbeelding dia",
-            "heading_size": "h1",
-            "subheading": "Vertel met afbeeldingen het verhaal van je merk",
-            "button_label": "Knoplabel",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "heading": "Echt een wereld van verschil",
+            "heading_size": "h1"
           }
         },
-        "slide_rR3RFY": {
-          "type": "slide",
+        "text_cahnAB": {
+          "type": "text",
           "settings": {
-            "heading": "Afbeelding dia",
-            "heading_size": "h1",
-            "subheading": "Vertel met afbeeldingen het verhaal van je merk",
-            "button_label": "Knoplabel",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
+            "text": "<p>Ik behandel nu 4 weken en het is echt een wereld van verschil. Ik zal nooit meer teruggaan naar scheren!</p>",
+            "text_style": "body"
           }
         },
-        "slide_4KLman": {
-          "type": "slide",
+        "button_CDndDH": {
+          "type": "button",
           "settings": {
-            "heading": "Afbeelding dia",
-            "heading_size": "h1",
-            "subheading": "Vertel met afbeeldingen het verhaal van je merk",
-            "button_label": "Knoplabel",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "button_label": "Meer over IPL",
+            "button_link": "shopify://pages/the-technology",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "slide_HdJjnB",
-        "slide_rR3RFY",
-        "slide_4KLman"
+        "heading_HThQRQ",
+        "text_cahnAB",
+        "button_CDndDH"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
         "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Diavoorstelling over ons merk"
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -427,6 +402,6 @@
     "multicolumn_dXcxAQ",
     "rich_text_htwadY",
     "multicolumn_BgQfx7",
-    "slideshow_H8eWYz"
+    "image_with_text_fnanPw"
   ]
 }
