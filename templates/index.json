@@ -150,7 +150,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-7b245674-9f20-4736-a355-00cb8ed8067b",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -298,8 +298,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/DSC08520.jpg",
-            "title": "Mijn zus raadde me GoSmooth aan nadat ze goede resultaten had bereikt na 8 weken gebruik. Ik gebruik het nu 4 weken en begin al de eerste resultaten te zien.",
-            "text": "<p>Petra - 52</p>",
+            "title": "",
+            "text": "<p>Mijn zus raadde me GoSmooth aan nadat ze goede resultaten had bereikt na 8 weken gebruik. Ik gebruik het nu 4 weken en begin al de eerste resultaten te zien.<br/><br/>Petra - 52</p>",
             "link_label": "",
             "link": ""
           }
@@ -308,8 +308,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/DSC08663_square.jpg",
-            "title": "Ik kocht de GoSmooth IPL Kit voor mijn vriendin en ze was er zo blij mee. Nu gebruiken we het IPL apparaat soms samen, en ik begin ook de eerste resultaten te merken.",
-            "text": "<p>Niels - 25</p>",
+            "title": "",
+            "text": "<p>Ik kocht de GoSmooth IPL Kit voor mijn vriendin en ze was er zo blij mee. Nu gebruiken we het IPL apparaat soms samen, en ik begin ook de eerste resultaten te merken.<br/>Niels - 25</p>",
             "link_label": "",
             "link": ""
           }
@@ -318,8 +318,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/DSC00226.jpg",
-            "title": "Strakke leggings en continu zweten in de sportschool. Als personal trainer, had ik continu last van huidirritaties door scheren. Door GoSmooth hoef ik me hier geen zorgen meer om te maken.",
-            "text": "<p>Eva - 24<br/><a href=\"https://www.instagram.com/eva.personaltrainingx/\" target=\"_blank\" title=\"https://www.instagram.com/eva.personaltrainingx/\">@eva.personaltrainingx</a></p>",
+            "title": "",
+            "text": "<p>Strakke leggings en continu zweten in de sportschool. Als personal trainer, had ik continu last van huidirritaties door scheren. Door GoSmooth hoef ik me hier geen zorgen meer om te maken.</p><p><br/>Eva - 24<br/><a href=\"https://www.instagram.com/eva.personaltrainingx/\" target=\"_blank\" title=\"https://www.instagram.com/eva.personaltrainingx/\">@eva.personaltrainingx</a></p>",
             "link_label": "",
             "link": ""
           }
