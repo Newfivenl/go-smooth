@@ -27,11 +27,19 @@
             "heading": "Info",
             "menu": "information"
           }
+        },
+        "link_list_rybieP": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Snelle links",
+            "menu": "extra-footer"
+          }
         }
       },
       "block_order": [
         "footer-0",
-        "footer-1"
+        "footer-1",
+        "link_list_rybieP"
       ],
       "settings": {
         "color_scheme": "scheme-1",
