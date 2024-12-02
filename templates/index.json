@@ -354,7 +354,7 @@
           "type": "heading",
           "settings": {
             "heading": "Echt een wereld van verschil",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_cahnAB": {
@@ -379,11 +379,12 @@
         "button_CDndDH"
       ],
       "settings": {
+        "image": "shopify://shop_images/DSC00267-2.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "text_first",
         "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
@@ -391,6 +392,92 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_9kyKdQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MH8ygH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hoe werkt IPL?",
+            "heading_size": "h2"
+          }
+        },
+        "text_zMqhCq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Met de GoSmooth IPL-apparaten worden lichtpulsen afgegeven aan de huid die worden opgenomen door melanine in het haar. </p><p>De warmte in het melanine wordt overgebracht naar het haarzakje. Deze warmte zorgt ervoor dat het haarzakje in een rustfase komt waarin haargroei wordt voorkomen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MH8ygH",
+        "text_zMqhCq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 12
+      }
+    },
+    "multicolumn_nGeeyk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LUYTTD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_icon_light_1024x1024_12fa0eaf-2462-425f-9622-08942fa5fda8.webp",
+            "title": "",
+            "text": "<p>Melanine in het haar absorbeert het licht</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CX6W69": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_icon_hair_1024x1024_d5266e1f-157e-4f3e-9adf-fe55cdb9e75b.webp",
+            "title": "",
+            "text": "<p>De warmte wordt overgebracht naar het haarzakje</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LPXdqg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_icon_grows_1024x1024_f0199467-d22f-40cd-a913-adfd1bdd43db.webp",
+            "title": "",
+            "text": "<p>De hitte zal het haarzakje beschadigen, wat resulteert in het voorkomen van haargroei</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LUYTTD",
+        "column_CX6W69",
+        "column_LPXdqg"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 12
       }
     }
   },
@@ -402,6 +489,8 @@
     "multicolumn_dXcxAQ",
     "rich_text_htwadY",
     "multicolumn_BgQfx7",
-    "image_with_text_fnanPw"
+    "image_with_text_fnanPw",
+    "rich_text_9kyKdQ",
+    "multicolumn_nGeeyk"
   ]
 }
