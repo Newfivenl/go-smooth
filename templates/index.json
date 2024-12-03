@@ -382,29 +382,6 @@
         "padding_bottom": 8
       }
     },
-    "rich_text_htwadY": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_PdyqYC": {
-          "type": "heading",
-          "settings": {
-            "heading": "Echte beoordelingen van echte klanten",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_PdyqYC"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "ss_testimonial_10_xc4Pz4": {
       "type": "ss-testimonial-10",
       "blocks": {
@@ -581,6 +558,7 @@
         "column_KgbR3G",
         "column_a7Vkcn"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -809,7 +787,6 @@
     "featured_collection",
     "video",
     "multicolumn_dXcxAQ",
-    "rich_text_htwadY",
     "ss_testimonial_10_xc4Pz4",
     "multicolumn_BgQfx7",
     "image_with_text_fnanPw",
