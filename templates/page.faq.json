@@ -161,6 +161,114 @@
             "row_content": "<p>Het verwijderen en het tegengaan van haargroei door middel van IPL is geheel veilig. Echter is er op dit moment niet genoeg wetenschappelijk bewijs om honderd procent te kunnen garanderen dat dit tijdens de zwangerschap ook zo is. Er is hier namelijk nog niet genoeg specifiek onderzoek naar gedaan. Om de gezondheid van u en uw baby te garanderen raden wij het gebruik van van IPL daarom af tijdens de zwangerschap.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_GaGUDk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Welke haar- en huidtypes zijn geschikt voor IPL?",
+            "icon": "none",
+            "row_content": "<p>Via deze <a href=\"/pages/the-technology\" title=\"The Technology\">link</a> kunt u zien welke haar- en huidtypes geschikt zijn voor IPL.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YiafHc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Na hoeveel behandelingen kan ik resultaat verwachten?",
+            "icon": "none",
+            "row_content": "<p>Met slechts 4-5 IPL sessies ervaart u een visueel verminderde haargroei met de GoSmooth IPL Classic. Met de GoSmooth IPL Pro zullen deze resultaten al na 3-4 weken zichtbaar moeten zijn.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cMExpY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan ik dezelfde resultaten behalen als in een kliniek?",
+            "icon": "none",
+            "row_content": "<p>Absoluut! Onze technologie is klinisch bewezen en is veilig voor thuisgebruik. U kunt zeker dezelfde resultaten behalen als in een kliniek!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JhWUJL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is IPL veilig om te gebruiken?",
+            "icon": "none",
+            "row_content": "<p>IPL is volkomen veilig om te gebruiken. De GoSmooth IPL apparaten zijn CE gekeurd en voldoen aan alle wetgeving omtrent de veiligheid van elektrische apparaten. Als u een huidaandoening of andere aandoening heeft, lees dan voor gebruik de volledige handleiding of laat u adviseren door een medisch specialist. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ywetff": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hoe vaak moet ik flitsen op een plek die ik wil behandelen?",
+            "icon": "none",
+            "row_content": "<p>Wij raden aan om 1 keer per plek te flitsen. Verplaats het apparaat 1-2 cm na elke flits om de volgende plek te behandelen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NQVTTf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Zijn de GoSmooth IPL apparaten oplaadbaar?",
+            "icon": "none",
+            "row_content": "<p>Nee, de GoSmooth IPL apparaten zijn niet oplaadbaar. De GoSmooth IPL apparaten kunnen alleen gebruikt worden als ze op het stroom zijn aangesloten.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_p73Vdw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hoe maak ik mijn GoSmooth IPL apparaat schoon?",
+            "icon": "none",
+            "row_content": "<p>U kunt de GoSmooth IPL apparaten schoonmaken met een vochtig doekje. Zorg ervoor dat het doekje niet te nat is, anders kan het apparaat beschadigd raken. Vermijd schoonmaakmiddelen die agressief op de huid reageren.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LVByUk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kunnen lichaamsdelen met tatoeages behandeld worden met IPL?",
+            "icon": "none",
+            "row_content": "<p>Nee, gebruik de GoSmooth IPL apparaten NIET op lichaamsdelen met tatoeages. De tatoeages kunnen vervagen door IPL en er kunnen brandwonden ontstaan. Als u delen rond de tatoeages wilt behandelen, kunt u de tatoeages het beste met een doek afdekken.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_GPxRpp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kunnen lichaamsdelen met tatoeages behandeld worden met IPL?",
+            "icon": "none",
+            "row_content": "<p>Hoe oud moet ik zijn om IPL te kunnen gebruiken?</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4jThJ7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Waarvoor heb ik de bril nodig?",
+            "icon": "none",
+            "row_content": "<p>De bril die wordt meegeleverd in de IPL kits is bedoeld om de ogen te beschermen tegen de lichtflitsen tijdens een IPL behandeling. Wij raden altijd aan om de bril op te doen tijdens het gebruik van de IPL apparaten.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xpbMwk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Zijn de GoSmooth IPL apparaten ook geschikt voor mannen?",
+            "icon": "none",
+            "row_content": "<p>Absoluut! De GoSmooth IPL apparaten zijn geschikt voor zowel mannen als vrouwen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CFCwYU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan ik mijn GoSmooth IPL apparaat delen met iemand anders?",
+            "icon": "none",
+            "row_content": "<p>Ja natuurlijk! Zorg ervoor dat u het apparaat goed schoonmaakt voordat iemand anders het gebruikt.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -172,7 +280,19 @@
         "collapsible_row_Ew7gyj",
         "collapsible_row_n87VdC",
         "collapsible_row_zT4iWX",
-        "collapsible_row_H3LRUT"
+        "collapsible_row_H3LRUT",
+        "collapsible_row_GaGUDk",
+        "collapsible_row_YiafHc",
+        "collapsible_row_cMExpY",
+        "collapsible_row_JhWUJL",
+        "collapsible_row_ywetff",
+        "collapsible_row_NQVTTf",
+        "collapsible_row_p73Vdw",
+        "collapsible_row_LVByUk",
+        "collapsible_row_GPxRpp",
+        "collapsible_row_4jThJ7",
+        "collapsible_row_xpbMwk",
+        "collapsible_row_CFCwYU"
       ],
       "settings": {
         "caption": "",
