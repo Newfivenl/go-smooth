@@ -86,11 +86,11 @@
             "button_mt_mobile": 24,
             "button_style": "non_outline_arrow",
             "button_color": "#ffffff",
-            "button_hover_color": "#000000",
+            "button_hover_color": "#ffffff",
             "button_bg_color": "#ff5faa",
-            "button_bg_hover_color": "#fff89c",
-            "button_border_color": "#000000",
-            "button_border_hover_color": "#000000"
+            "button_bg_hover_color": "#7b475e",
+            "button_border_color": "#7b475e",
+            "button_border_hover_color": "#7b475e"
           }
         },
         "feature_6UnGya": {
