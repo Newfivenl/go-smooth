@@ -41,22 +41,11 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "row_yL6CeB": {
-          "type": "row",
-          "settings": {
-            "caption": "Bijschrift",
-            "heading": "Rij",
-            "text": "<p>Plaats een afbeelding bij stukken tekst om de aandacht op je gekozen product, collectie of blogpost te richten. Voeg details over beschikbaarheid en stijl toe of plaats een productrecensie.</p>",
-            "button_label": "Knoplabel",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "row_E3aiL7",
-        "row_iEcELi",
-        "row_yL6CeB"
+        "row_iEcELi"
       ],
       "settings": {
         "image_height": "adapt",
