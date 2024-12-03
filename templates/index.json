@@ -455,8 +455,8 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-7b245674-9f20-4736-a355-00cb8ed8067b",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 24,
         "padding_bottom": 8
       }
