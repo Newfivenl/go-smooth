@@ -89,14 +89,34 @@
             "row_content": "<p>Wij raden aan om het GoSmooth IPL apparaat 1 keer per week te gebruiken. Dit geldt zowel voor de GoSmooth IPL Classic als voor de GoSmooth IPL Pro.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_EJXz7Q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan ik de GoSmooth IPL apparaten gebruiken op elk lichaamsdeel?",
+            "icon": "none",
+            "row_content": "<p>Ja, de GoSmooth IPL apparaten kunnen op elk lichaamsdeel gebruikt worden waar haargroei is (inclusief bikinilijn & vrouwelijke geslachtsdelen).</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8pKiTa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hoe vaak moet ik het GoSmooth IPL apparaat gebruiken?",
+            "icon": "none",
+            "row_content": "<p>Wij raden aan om het GoSmooth IPL apparaat 1 keer per week te gebruiken. Dit geldt zowel voor de GoSmooth IPL Classic als voor de GoSmooth IPL Pro.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "collapsible_row_iTAELM"
+        "collapsible_row_iTAELM",
+        "collapsible_row_EJXz7Q",
+        "collapsible_row_8pKiTa"
       ],
       "settings": {
         "caption": "",
-        "heading": "Inklapbare content",
+        "heading": "",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
