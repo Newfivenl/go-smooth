@@ -372,5 +372,20 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    {% comment %} instant cart {% endcomment %}
+    <script>
+      document.addEventListener('instant:add-to-cart', () => {
+        fetch('/cart/update.js', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ updates: {}, sections: ['cart-drawer', 'cart-icon-bubble'] }),
+        })
+          .then((res) => res.json())
+          .then((cart) => {
+            document.querySelector('cart-drawer').renderContents(cart);
+            document.querySelector('cart-drawer.drawer').classList.remove('is-empty');
+          });
+      });
+    </script>
   </body>
 </html>
