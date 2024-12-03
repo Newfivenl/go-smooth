@@ -411,50 +411,45 @@
         "testimonial_bp4Daz": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/Testimonial_4.jpg",
             "stars_count": 5,
-            "text": "<p>'I've been getting so many compliments on my skin. In love.'</p>",
-            "author": "- SYMONE K <3 GLAZE"
+            "text": "<p>Ik heb erg donkere beenhaartjes die ik echt dagelijks moet scheren. Na 5 behandelingen met de GoSmooth IPL Pro groeit zo’n 75% van de haren veel langzamer terug en blijft er zelfs al een deel helemaal weg.</p>",
+            "author": "Maria - 40"
           }
         },
         "testimonial_cCjt6r": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/Testimonial_2_800x_b6893e24-3167-4721-baed-ea87491e4684.webp",
             "stars_count": 5,
-            "text": "<p>'Been using thif for months add it has given me the best glow.'</p>",
-            "author": "- ANGELA C <3 BRC"
+            "text": "<p>Ik heb de GoSmooth IPL Pro besteld  met het doel om voor de zomer haarvrij te worden. Ik moet zeggen dat ik aardig op weg ben want op sommige delen van mijn benen komen de haren nauwelijks terug.</p>",
+            "author": "Francisca - 31"
+          }
+        },
+        "testimonial_X7BaLz": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Testimonial_1.jpg",
+            "stars_count": 5,
+            "text": "<p>Ik ben in het verleden vaak naar schoonheidssalons gegaan om mijn benen te laten ontharen. Dit was erg duur en kostte veel tijd. De GoSmooth IPL Pro was voor mij dus echt een uitkomst. Ik kan nu behandelen wanneer ik wil met deze eenmalige aankoop.</p>",
+            "author": "Adriana - 37"
           }
         },
         "testimonial_rUJyj7": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/DSC00286-2_800x_eb696249-fe66-418c-8f62-bc99760573b6.webp",
             "stars_count": 5,
-            "text": "<p>'The glazing milk is definitely my new staple in my routine!'</p>",
-            "author": "- KIRSTEN C <3 BRC"
-          }
-        },
-        "testimonial_xzRKaX": {
-          "type": "testimonial",
-          "settings": {
-            "stars_count": 5,
-            "text": "<p>'This things is the real deal. Love it so much.'</p>",
-            "author": "- VANESSA <3 GLAZE"
-          }
-        },
-        "testimonial_degYez": {
-          "type": "testimonial",
-          "settings": {
-            "stars_count": 5,
-            "text": "<p>'This BRC thing is insane. It really does work!.'</p>",
-            "author": "- KAYA <3 BRC"
+            "text": "<p>Ik behandel nu 4 weken en het is echt een wereld van verschil. Ik zal nooit meer teruggaan naar scheren!</p>",
+            "author": "Rosan - 24"
           }
         }
       },
       "block_order": [
         "testimonial_bp4Daz",
         "testimonial_cCjt6r",
-        "testimonial_rUJyj7",
-        "testimonial_xzRKaX",
-        "testimonial_degYez"
+        "testimonial_X7BaLz",
+        "testimonial_rUJyj7"
       ],
       "settings": {
         "body_padding_vertical": 50,
