@@ -16,9 +16,109 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_Qkx36r": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hL7rQG": {
+          "type": "heading",
+          "settings": {
+            "heading": "GoSmooth IPL Handleiding",
+            "heading_size": "h1"
+          }
+        },
+        "text_EnJ9Mw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>U kunt onze volledige gebruikershandleidingen voor de GoSmooth IPL apparaten hieronder lezen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hL7rQG",
+        "text_EnJ9Mw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_DgXwLP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UdrzWk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/custom_resized_b2bf0411-458b-47fb-a224-10a2ed30e14e.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "GoSmooth IPL Pro Handleiding",
+            "link": "shopify://products/gosmooth-ipl-kit-pro"
+          }
+        },
+        "column_JnHrt9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/custom_resized_4c354039-74c7-41aa-a7ea-43878f0d1f35.jpg",
+            "title": "",
+            "text": "<p>Plaats een afbeelding bij stukken tekst om de aandacht op je gekozen product, collectie of blogpost te richten. Voeg details over beschikbaarheid en stijl toe of plaats een productrecensie.</p>",
+            "link_label": "GoSmooth IPL Classic Handleiding",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UdrzWk",
+        "column_JnHrt9"
+      ],
+      "settings": {
+        "title": "Meerdere kolommen",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Knoplabel",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Krprqh": {
+      "type": "rich-text",
+      "blocks": {
+        "text_9nCHTj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>* Lees de handleiding voordat u het GoSmooth IPL apparaat gebruikt. Het is erg belangrijk om te weten wanneer u het GoSmooth IPL apparaat niet kunt gebruiken. Het lezen van de handleiding zal daarom veel risico's van de IPL behandelingen uitsluiten.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_9nCHTj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_Qkx36r",
+    "multicolumn_DgXwLP",
+    "rich_text_Krprqh"
   ]
 }
