@@ -348,6 +348,138 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_ttELEH": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_38PXHM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Welke betaalmethoden zijn beschikbaar tijdens het afrekenen?",
+            "icon": "none",
+            "row_content": "<p>Wij bieden de volgende betaalmethoden aan tijdens het afrekenen:</p><p><br/>- iDEAL<br/>- Klarna Achteraf Betalen<br/>- Apple Pay<br/>- Credit Card<br/>- PayPal<br/>- Bancontact<br/>- SOFORT<br/>- Belfius Direct<br/>- KBC/CBC Betaalknop</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XbJDxH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is het veilig om op de website van GoSmooth te betalen?",
+            "icon": "none",
+            "row_content": "<p>Alle betalingen die op de website van GoSmooth worden gedaan, zijn beveiligd door een gecodeerde SSL-verbinding die uw betalingsgegevens en persoonlijke gegevens beschermt.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wdcQpV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hoe kan ik de prijzen van de producten in een andere valuta zien?",
+            "icon": "none",
+            "row_content": "<p>De valuta zal automatisch aangepast worden op basis van uw locatie.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JHJRJq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hoe kan ik zien welke korting actief is?",
+            "icon": "none",
+            "row_content": "<p>Op de productpagina kunt u zien of een product in de aanbieding is. De normale prijs wordt dan doorgestreept en de actieprijs is zichtbaar.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bgpKtr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Komen er binnenkort nieuwe kortingsacties aan?",
+            "icon": "none",
+            "row_content": "<p>Houd onze social media in de gaten voor de laatste kortingsacties. Zodra wij een korting hebben zullen we dit altijd direct delen via onze social media.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ibhAWP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Zijn er douanerechten van toepassing op mijn bestelling?",
+            "icon": "none",
+            "row_content": "<p>Nee, alle bestellingen worden vanuit Nederland verzonden dus u hoeft geen extra douanekosten te betalen.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_38PXHM",
+        "collapsible_row_XbJDxH",
+        "collapsible_row_wdcQpV",
+        "collapsible_row_JHJRJq",
+        "collapsible_row_bgpKtr",
+        "collapsible_row_ibhAWP"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Betaling",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-06a61f75-1ac3-40ea-b0ca-a88731db85e5",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_TAymPF": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_GF9PcG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Naar welke landen verzendt GoSmooth?",
+            "icon": "none",
+            "row_content": "<p>Wij verzenden onze pakketten naar alle landen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eLDcgQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hoe kan ik mijn bestelling volgen?",
+            "icon": "none",
+            "row_content": "<p>U ontvangt een Track & Trace email zodra uw bestelling is verzonden uit ons magazijn. Controleer ook uw spambox als u de Track & Trace email nog niet heeft ontvangen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Rn8WL7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wat is de levertijd van mijn bestelling?",
+            "icon": "none",
+            "row_content": "<p>De levertijd is 1 werkdag voor bestellingen die verzonden worden naar Nederland en België.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_GF9PcG",
+        "collapsible_row_eLDcgQ",
+        "collapsible_row_Rn8WL7"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Verzending",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-06a61f75-1ac3-40ea-b0ca-a88731db85e5",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -355,6 +487,8 @@
     "rich_text_mTh39X",
     "image_banner_Pp7ceF",
     "rich_text_eXyFif",
-    "collapsible_content_cDh7VU"
+    "collapsible_content_cDh7VU",
+    "collapsible_content_ttELEH",
+    "collapsible_content_TAymPF"
   ]
 }
