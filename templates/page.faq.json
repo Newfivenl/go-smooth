@@ -102,9 +102,63 @@
         "collapsible_row_8pKiTa": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Hoe vaak moet ik het GoSmooth IPL apparaat gebruiken?",
+            "heading": "Op welke stand moet ik het GoSmooth IPL apparaat gebruiken?",
             "icon": "none",
-            "row_content": "<p>Wij raden aan om het GoSmooth IPL apparaat 1 keer per week te gebruiken. Dit geldt zowel voor de GoSmooth IPL Classic als voor de GoSmooth IPL Pro.</p>",
+            "row_content": "<p>Voor alle huidtypes raden wij aan om te beginnen op stand één. Als uw huid goed op de behandeling reageert kunt u vervolgens de stand elke week met één stand verhogen. Als de huid 5 uur na de behandeling nog pijnlijk aanvoelt dan raden wij aan om de stand de volgende behandeling te verlagen. Als u een getinte huid heeft dan raden wii aan om de stand langzamer op te bouwen en extra alert te zijn bij gevoeligheid. Bij een te hoge stand kan en getinte huid namelijk sneller verbranden. Heeft u een donkere huidskleur dan raden wij het af om ons apparaat te gebruiken.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Yj338w": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan ik de GoSmooth IPL apparaten gebruiken op mijn bikinilijn en geslachtsdelen?",
+            "icon": "none",
+            "row_content": "<p>Ja absoluut! De GoSmooth IPL apparaten kunnen op elk lichaamsdeel gebruikt worden inclusief de bikinilijn en vrouwelijke geslachtsdelen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ceiVyT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Moet ik me eerst scheren voordat ik het GoSmooth IPL apparaat ga gebruiken?",
+            "icon": "none",
+            "row_content": "<p>Ja, het is noodzakelijk om uw haar te verwijderen voordat u met en IPL behandeling begint. Wij raden aan om 12 tot 24 uur voor een behandeling te scheren. De lichtflitsen kunnen dan het beste de haarzakjes bereiken. Als het haar niet wordt verwijderd, kunnen de lichtflitsen het haarzakje niet bereiken.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ew7gyj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan ik voor of na een IPL-behandeling zonnebaden of een zonnebank gebruiken?",
+            "icon": "none",
+            "row_content": "<p>Wij raden aan om 3 dagen voor en 3 dagen na een IPL behandeling niet te zonnebaden of naar de zonnebank te gaan.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_n87VdC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan ik voor of na een IPL-behandeling douchen?",
+            "icon": "none",
+            "row_content": "<p>Ja, dat is 100% veilig. U kunt gerust douchen voor of na een IPL-behandeling.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zT4iWX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Doet het behandelen met de GoSmooth IPL apparaten pijn?",
+            "icon": "none",
+            "row_content": "<p>Nee, zeker niet. Het gebruik van de GoSmooth IPL apparaten is volledig pijnloos. Het enige dat u tijdens de behandeling voelt is een warme gloed bij elke flits.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_H3LRUT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan ik het GoSmooth IPL apparaat gebruiken terwijl ik zwanger ben?",
+            "icon": "none",
+            "row_content": "<p>Het verwijderen en het tegengaan van haargroei door middel van IPL is geheel veilig. Echter is er op dit moment niet genoeg wetenschappelijk bewijs om honderd procent te kunnen garanderen dat dit tijdens de zwangerschap ook zo is. Er is hier namelijk nog niet genoeg specifiek onderzoek naar gedaan. Om de gezondheid van u en uw baby te garanderen raden wij het gebruik van van IPL daarom af tijdens de zwangerschap.</p>",
             "page": ""
           }
         }
@@ -112,7 +166,13 @@
       "block_order": [
         "collapsible_row_iTAELM",
         "collapsible_row_EJXz7Q",
-        "collapsible_row_8pKiTa"
+        "collapsible_row_8pKiTa",
+        "collapsible_row_Yj338w",
+        "collapsible_row_ceiVyT",
+        "collapsible_row_Ew7gyj",
+        "collapsible_row_n87VdC",
+        "collapsible_row_zT4iWX",
+        "collapsible_row_H3LRUT"
       ],
       "settings": {
         "caption": "",
