@@ -34,8 +34,8 @@
             "review_height": 130,
             "review_color": "#000000",
             "stars_color": "#ffffff",
-            "stars_bg_color": "#00B67A",
-            "review_bg_color": "#FFFFFF"
+            "stars_bg_color": "#00b67a",
+            "review_bg_color": "#ffffff"
           }
         },
         "heading_wPEWct": {
@@ -249,85 +249,6 @@
         "show_text_below": false
       }
     },
-    "multicolumn_HPnAE7": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_GwitDn": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/secure_payment.png",
-            "title": "",
-            "text": "<p>Veilig betalen</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_XG6HaJ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/5.png",
-            "title": "",
-            "text": "<p>Achteraf betalen</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_xArkQM": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/6.png",
-            "title": "",
-            "text": "<p>1 Jaar garantie</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_3qrAUn": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Fast_delivery_c928b539-7191-4f85-814e-c4167928d29b.png",
-            "title": "",
-            "text": "<p>Snelle levering</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_WfFiab": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/3.png",
-            "title": "",
-            "text": "<p>Gratis verzending</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_GwitDn",
-        "column_XG6HaJ",
-        "column_xArkQM",
-        "column_3qrAUn",
-        "column_WfFiab"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 5,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-7b245674-9f20-4736-a355-00cb8ed8067b",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 12
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -482,6 +403,148 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "ss_testimonial_10_xc4Pz4": {
+      "type": "ss-testimonial-10",
+      "blocks": {
+        "testimonial_bp4Daz": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>'I've been getting so many compliments on my skin. In love.'</p>",
+            "author": "- SYMONE K <3 GLAZE"
+          }
+        },
+        "testimonial_cCjt6r": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>'Been using thif for months add it has given me the best glow.'</p>",
+            "author": "- ANGELA C <3 BRC"
+          }
+        },
+        "testimonial_rUJyj7": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>'The glazing milk is definitely my new staple in my routine!'</p>",
+            "author": "- KIRSTEN C <3 BRC"
+          }
+        },
+        "testimonial_xzRKaX": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>'This things is the real deal. Love it so much.'</p>",
+            "author": "- VANESSA <3 GLAZE"
+          }
+        },
+        "testimonial_degYez": {
+          "type": "testimonial",
+          "settings": {
+            "stars_count": 5,
+            "text": "<p>'This BRC thing is insane. It really does work!.'</p>",
+            "author": "- KAYA <3 BRC"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_bp4Daz",
+        "testimonial_cCjt6r",
+        "testimonial_rUJyj7",
+        "testimonial_xzRKaX",
+        "testimonial_degYez"
+      ],
+      "settings": {
+        "body_padding_vertical": 50,
+        "body_padding_vertical_mobile": 16,
+        "body_padding_horizontal": 50,
+        "body_padding_horizontal_mobile": 16,
+        "body_radius": 12,
+        "body_border_thickness": 0,
+        "heading": "<h2>You + us</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_size_mobile": 24,
+        "heading_height": 150,
+        "heading_align": "left",
+        "heading_align_mobile": "left",
+        "sub_heading": "<p>Echte beoordelingen van echte klanten</p>",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 18,
+        "sub_heading_size_mobile": 14,
+        "sub_heading_height": 150,
+        "slider_view": 3.7,
+        "slider_view_mobile": 1,
+        "slider_gap": 36,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "image_radius": 12,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "stars_size": 20,
+        "stars_mt": 24,
+        "stars_align": "start",
+        "stars_align_mobile": "start",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 20,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_mt": 12,
+        "text_align": "left",
+        "text_align_mobile": "left",
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 20,
+        "author_size_mobile": 16,
+        "author_height": 130,
+        "author_mt": 8,
+        "author_align": "left",
+        "author_align_mobile": "left",
+        "arrow_size": 50,
+        "arrow_size_mobile": 42,
+        "arrow_icon_size": 40,
+        "arrow_icon_size_mobile": 28,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 12,
+        "dots_size_mobile": 12,
+        "dots_mt": 32,
+        "dots_show_desktop": false,
+        "dots_show_mobile": true,
+        "body_bg_color": "#fff5fc",
+        "body_border_color": "#4f0f2b",
+        "stars_color": "#f36da8",
+        "text_color": "#4f0f2b",
+        "author_color": "#4b162a",
+        "arrow_color": "#f36da8",
+        "arrow_hover_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#f36da8",
+        "arrow_border_color": "#ff5faa",
+        "arrow_border_hover_color": "#f36da8",
+        "dots_color": "#7b475e",
+        "heading_color": "#4b162a",
+        "sub_heading_color": "#7b475e",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#4f0f2b",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
       }
     },
     "multicolumn_BgQfx7": {
@@ -748,11 +811,11 @@
   "order": [
     "ss_hero_16_qM7UXK",
     "image_banner",
-    "multicolumn_HPnAE7",
     "featured_collection",
     "video",
     "multicolumn_dXcxAQ",
     "rich_text_htwadY",
+    "ss_testimonial_10_xc4Pz4",
     "multicolumn_BgQfx7",
     "image_with_text_fnanPw",
     "rich_text_9kyKdQ",
