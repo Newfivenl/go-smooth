@@ -269,6 +269,42 @@
             "row_content": "<p>Ja natuurlijk! Zorg ervoor dat u het apparaat goed schoonmaakt voordat iemand anders het gebruikt.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_DWJ4Ac": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Zijn de GoSmooth IPL apparaten draadloos?",
+            "icon": "none",
+            "row_content": "<p>Nee, de GoSmooth IPL apparaten kunnen alleen gebruikt worden als ze op het stroom zijn aangesloten.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FjnYFQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Biedt GoSmooth garantie op alle producten?",
+            "icon": "none",
+            "row_content": "<p>Ja, wij bieden op alle producten 1 jaar garantie na aankoop. Neem <a href=\"/pages/contact-us\" title=\"Contact us\">contact</a> met ons op als u een probleem heeft met uw product.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PqhHCN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan ik tussen de IPL-behandelingen door blijven scheren?",
+            "icon": "none",
+            "row_content": "<p>Ja, u kunt gerust blijven scheren tussen de IPL-behandelingen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Fmrcyy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hoe kan ik een klacht indienen?",
+            "icon": "none",
+            "row_content": "<p>Het kan altijd gebeuren dat er iets niet helemaal gaat zoals gepland. Wij adviseren u om klachten eerst kenbaar bij ons te maken door te mailen naar support@go-smooth.com. Mocht dit niet tot een oplossing leiden, dan is het mogelijk om uw geschil voor te leggen voor bemiddeling via het <a href=\"https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage\" target=\"_blank\" title=\"https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage\">ODR platform</a> van de Europese Unie.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -292,7 +328,11 @@
         "collapsible_row_GPxRpp",
         "collapsible_row_4jThJ7",
         "collapsible_row_xpbMwk",
-        "collapsible_row_CFCwYU"
+        "collapsible_row_CFCwYU",
+        "collapsible_row_DWJ4Ac",
+        "collapsible_row_FjnYFQ",
+        "collapsible_row_PqhHCN",
+        "collapsible_row_Fmrcyy"
       ],
       "settings": {
         "caption": "",
