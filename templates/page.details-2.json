@@ -65,7 +65,7 @@
           "settings": {
             "image": "shopify://shop_images/custom_resized_4c354039-74c7-41aa-a7ea-43878f0d1f35.jpg",
             "title": "",
-            "text": "<p>Plaats een afbeelding bij stukken tekst om de aandacht op je gekozen product, collectie of blogpost te richten. Voeg details over beschikbaarheid en stijl toe of plaats een productrecensie.</p>",
+            "text": "",
             "link_label": "GoSmooth IPL Classic Handleiding",
             "link": ""
           }
@@ -76,14 +76,14 @@
         "column_JnHrt9"
       ],
       "settings": {
-        "title": "Meerdere kolommen",
+        "title": "",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Knoplabel",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
