@@ -23,32 +23,20 @@
         "heading_rUhABQ": {
           "type": "heading",
           "settings": {
-            "heading": "Vertel over je merk",
+            "heading": "Hoe werkt IPL?",
             "heading_size": "h1"
           }
         },
         "text_7NADWw": {
           "type": "text",
           "settings": {
-            "text": "<p>Deel informatie over je merk met klanten. Beschrijf een product, doe aankondigingen of verwelkom klanten in je winkel.</p>"
-          }
-        },
-        "button_Vg9D9m": {
-          "type": "button",
-          "settings": {
-            "button_label": "Knoplabel",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Met de GoSmooth IPL-apparaten worden lichtpulsen afgegeven aan<br/>de huid die worden opgenomen door melanine in het haar.</p><p>De warmte in het melanine wordt overgebracht naar het haarzakje. Deze warmte zorgt ervoor dat het haarzakje in een rustfase komt waarin haargroei wordt voorkomen.</p>"
           }
         }
       },
       "block_order": [
         "heading_rUhABQ",
-        "text_7NADWw",
-        "button_Vg9D9m"
+        "text_7NADWw"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -65,8 +53,19 @@
         "column_BxWx9F": {
           "type": "column",
           "settings": {
-            "title": "Kolom",
-            "text": "<p>Plaats een afbeelding bij stukken tekst om de aandacht op je gekozen product, collectie of blogpost te richten. Voeg details over beschikbaarheid en stijl toe of plaats een productrecensie.</p>",
+            "image": "shopify://shop_images/img_icon_light_1024x1024_12fa0eaf-2462-425f-9622-08942fa5fda8.webp",
+            "title": "",
+            "text": "<p>Melanine in het haar absorbeert het licht</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TCkphq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_icon_hair_1024x1024_d5266e1f-157e-4f3e-9adf-fe55cdb9e75b.webp",
+            "title": "",
+            "text": "<p>De warmte wordt overgebracht naar het haarzakje</p>",
             "link_label": "",
             "link": ""
           }
@@ -74,17 +73,9 @@
         "column_3MPMpQ": {
           "type": "column",
           "settings": {
-            "title": "Kolom",
-            "text": "<p>Plaats een afbeelding bij stukken tekst om de aandacht op je gekozen product, collectie of blogpost te richten. Voeg details over beschikbaarheid en stijl toe of plaats een productrecensie.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_BGRHXj": {
-          "type": "column",
-          "settings": {
-            "title": "Kolom",
-            "text": "<p>Plaats een afbeelding bij stukken tekst om de aandacht op je gekozen product, collectie of blogpost te richten. Voeg details over beschikbaarheid en stijl toe of plaats een productrecensie.</p>",
+            "image": "shopify://shop_images/img_icon_grows_1024x1024_f0199467-d22f-40cd-a913-adfd1bdd43db.webp",
+            "title": "",
+            "text": "<p>De hitte zal het haarzakje beschadigen, wat resulteert in het voorkomen van haargroei</p>",
             "link_label": "",
             "link": ""
           }
@@ -92,22 +83,22 @@
       },
       "block_order": [
         "column_BxWx9F",
-        "column_3MPMpQ",
-        "column_BGRHXj"
+        "column_TCkphq",
+        "column_3MPMpQ"
       ],
       "settings": {
-        "title": "Meerdere kolommen",
+        "title": "",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "image_width": "third",
+        "image_ratio": "circle",
         "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Knoplabel",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
