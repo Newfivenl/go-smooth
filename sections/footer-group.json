@@ -34,20 +34,12 @@
             "heading": "Snelle links",
             "menu": "extra-footer"
           }
-        },
-        "link_list_bTqxzq": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Snelle links",
-            "menu": "footer"
-          }
         }
       },
       "block_order": [
         "footer-0",
         "footer-1",
-        "link_list_rybieP",
-        "link_list_bTqxzq"
+        "link_list_rybieP"
       ],
       "settings": {
         "color_scheme": "scheme-1",
