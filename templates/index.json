@@ -385,6 +385,15 @@
     "ss_testimonial_10_xc4Pz4": {
       "type": "ss-testimonial-10",
       "blocks": {
+        "testimonial_rUJyj7": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/DSC00286-2_800x_eb696249-fe66-418c-8f62-bc99760573b6.webp",
+            "stars_count": 5,
+            "text": "<p>Ik behandel nu 4 weken en het is echt een wereld van verschil. Ik zal nooit meer teruggaan naar scheren!</p>",
+            "author": "Rosan - 24"
+          }
+        },
         "testimonial_bp4Daz": {
           "type": "testimonial",
           "settings": {
@@ -411,22 +420,13 @@
             "text": "<p>Ik ben in het verleden vaak naar schoonheidssalons gegaan om mijn benen te laten ontharen. Dit was erg duur en kostte veel tijd. De GoSmooth IPL Pro was voor mij dus echt een uitkomst. Ik kan nu behandelen wanneer ik wil met deze eenmalige aankoop.</p>",
             "author": "Adriana - 37"
           }
-        },
-        "testimonial_rUJyj7": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/DSC00286-2_800x_eb696249-fe66-418c-8f62-bc99760573b6.webp",
-            "stars_count": 5,
-            "text": "<p>Ik behandel nu 4 weken en het is echt een wereld van verschil. Ik zal nooit meer teruggaan naar scheren!</p>",
-            "author": "Rosan - 24"
-          }
         }
       },
       "block_order": [
+        "testimonial_rUJyj7",
         "testimonial_bp4Daz",
         "testimonial_cCjt6r",
-        "testimonial_X7BaLz",
-        "testimonial_rUJyj7"
+        "testimonial_X7BaLz"
       ],
       "settings": {
         "body_padding_vertical": 50,
