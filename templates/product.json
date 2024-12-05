@@ -12,14 +12,14 @@
     "instant_t1uz_c_xpo6_tbrj0y3_LNpfhz": {
       "type": "instant-T1uzCXpo6TBRJ0y3",
       "settings": {
-        "product_oqrttmoIMY7tXZzZ": "gosmooth-aloe-vera-gel",
+        "product_oqrttmoIMY7tXZzZ": "{{ product }}",
         "text_dnN9QfL3VywPwEaR": "<p>Korting</p>",
         "text_tVOhNzosque8GEhX": "<p>Voeg toe aan winkelwagen</p>",
         "text_k1JhZsHhvOYvdS7L": "<p>Gratis verzending | 30 dagen bedenktijd</p>",
         "text_KOmEXupon8RF23ei": "<h3>Hoe werkt het?</h3>",
         "text_rxilgSYXAmpCuJBq": "<h3>Specificaties</h3>",
         "text_7RU655MXi8tPP0NG": "<ul><li><h3>5 Standen</h3><h3></h3></li><li><h3>Energie Niveau 4.0 J/cm²</h3></li><li><h3>Flits Venster Oppervlak 315 mm²</h3></li><li><h3>Golflengte max 1100 nm</h3></li><li><h3>400.000 Flitsen</h3></li><li><h3>Automatische Flits Stand</h3></li><li><h3>Snelheid: 1 Flits per 2 seconden</h3></li><li><h3>1 Jaar Garantie</h3></li></ul>",
-        "text_5p68hXmHDWSVHHkN": "<h3>Verzending &amp; retourneren</h3>",
+        "text_5p68hXmHDWSVHHkN": "<h3>Verzending & retourneren</h3>",
         "text_JxkNQEY9UZljvgUy": "<h3><strong>Verzending</strong></h3><h3>Al onze bestellingen worden verstuurd met DHL, de standaard levertijd is 1 tot 2 werkdagen. Let er op dat de levertijd soms langer kan zijn in verband met vertragingen rond het piekseizoen. De verzending is gratis voor bestellingen boven €25. Voor bestellingen onder €25 geld een vast tarief van €5.</h3><h3></h3><h3><strong>Retourbeleid</strong></h3><h3>U heeft het recht uw bestelling tot 14 dagen na ontvangst zonder opgave van reden te annuleren. U heeft na annulering nogmaals 14 dagen om uw product retour te sturen. U krijgt dan het volledige orderbedrag inclusief verzendkosten gecrediteerd.</h3>",
         "padding_top": 0,
         "padding_bottom": 0
@@ -107,6 +107,7 @@
         "collapsible-row-1",
         "collapsible-row-2"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-2",
