@@ -3624,5 +3624,5 @@ details-disclosure > details {
 }
 
 	.product__payment .list-payment {
-		justify-content: flex-start;
+		justify-content: flex-start!important;
 	}
