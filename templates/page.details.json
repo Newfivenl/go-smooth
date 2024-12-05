@@ -220,10 +220,50 @@
             "row_content": "<p>Wij raden aan om het GoSmooth IPL apparaat 1 keer per week te gebruiken. Dit geldt zowel voor de GoSmooth IPL Classic als voor de GoSmooth IPL Pro.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_tVVeCf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan ik de GoSmooth IPL apparaten gebruiken op elk lichaamsdeel?",
+            "icon": "none",
+            "row_content": "<p>Ja, de GoSmooth IPL apparaten kunnen op elk lichaamsdeel gebruikt worden waar haargroei is (inclusief de bikinilijn & vrouwelijke geslachtsdelen).</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KPHrk7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Op welke stand moet ik het GoSmooth IPL apparaat gebruiken?",
+            "icon": "none",
+            "row_content": "<p>Voor alle huidtypes raden wij aan om te beginnen op stand één. Als uw huid goed op de behandeling reageert kunt u vervolgens de stand elke week met één stand verhogen. Als de huid 5 uur na de behandeling nog pijnlijk aanvoelt dan raden wij aan om de stand de volgende behandeling te verlagen. Als u een getinte huid heeft dan raden wij aan om de stand langzamer op te bouwen en extra alert te zijn bij gevoeligheid. Bij een te hoge stand kan en getinte huid namelijk sneller verbranden. Heeft u een donkere huidskleur dan raden wij het af om ons apparaat te gebruiken.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CjYDWX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan ik de GoSmooth IPL apparaten gebruiken op mijn bikinilijn en geslachtsdelen?",
+            "icon": "none",
+            "row_content": "<p>Ja absoluut! De GoSmooth IPL apparaten kunnen op elk lichaamsdeel gebruikt worden inclusief de bikinilijn en vrouwelijke geslachtsdelen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PGMri3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Moet ik me eerst scheren voordat ik het GoSmooth IPL apparaat ga gebruiken?",
+            "icon": "none",
+            "row_content": "<p>Ja, het is noodzakelijk om uw haar te verwijderen voordat u met en IPL behandeling begint. Wij raden aan om 12 tot 24 uur voor een behandeling te scheren. De lichtflitsen kunnen dan het beste de haarzakjes bereiken. Als het haar niet wordt verwijderd, kunnen de lichtflitsen het haarzakje niet bereiken.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "collapsible_row_kPa8Ef"
+        "collapsible_row_kPa8Ef",
+        "collapsible_row_tVVeCf",
+        "collapsible_row_KPHrk7",
+        "collapsible_row_CjYDWX",
+        "collapsible_row_PGMri3"
       ],
       "settings": {
         "caption": "",
