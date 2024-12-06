@@ -26,7 +26,7 @@
             "stars_count": 4.5,
             "stars_size": 18,
             "stars_size_mobile": 14,
-            "review": "<p>Excellent <strong>4.6</strong> | 22.000 vrouwen</p>",
+            "review": "<p>Vertrouwd door 22.000+ vrouwen</p>",
             "review_custom": false,
             "review_font": "muli_n4",
             "review_size": 16,
@@ -34,7 +34,7 @@
             "review_height": 130,
             "review_color": "#000000",
             "stars_color": "#ffffff",
-            "stars_bg_color": "#00b67a",
+            "stars_bg_color": "#f36da8",
             "review_bg_color": "#ffffff"
           }
         },
