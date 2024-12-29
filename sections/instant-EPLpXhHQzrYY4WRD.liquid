@@ -3,19 +3,19 @@
   {%- style -%}{%- endstyle -%}
   <!--  -->
   {{ 'instant-EPLpXhHQzrYY4WRD.css' | asset_url | stylesheet_tag -}}
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&amp;family=Lexend+Deca:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Lexend+Deca:wght@400;500;600&amp;display=swap" rel="stylesheet">
   {%- liquid
     assign product_image = product.selected_or_first_available_variant.featured_image | default: product.featured_image
   -%}
   <form data-instant-type="root" class="iKfPkBeppx9edBdnG" data-instant-form-product-url="{{ product.url }}" data-instant-form-variant-id="{{ product.selected_or_first_available_variant.id }}"
-    ><div class="iLNEuXqhLO7NXmENJ" data-instant-type="container" id="iLNEuXqhLO7NXmENJ"
-      ><div class="i4stmKhapLdwkXdxl" data-instant-type="container"
-        ><div class="instant-slider-container iy9I6UpSyt4TcifXs" data-instant-type="slider-container"
-          ><div class="iwcJqwtdYZrPRn8bb" data-instant-type="container">
-            <script type="application/json" id="instant-slider-WSoCIqfibgke5lFW-params">
-              { "breakpoints": { "0": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": 1, "freeMode": false, "centeredSlides": true, "centerInsufficientSlides": true, "spaceBetween": 0 }, "576": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": 1, "freeMode": false, "centeredSlides": true, "centerInsufficientSlides": true, "spaceBetween": 0 } }, "navigation": { "nextEl": ".instant-slider-WSoCIqfibgke5lFW-button-next", "prevEl": ".instant-slider-WSoCIqfibgke5lFW-button-prev", "disabledClass": "instant-slider-button-disabled", "hiddenClass": "instant-slider-button-hidden", "lockClass": "instant-slider-button-lock", "navigationDisabledClass": "instant-slider-navigation-disabled" }, "watchOverflow": true, "thumbs": { "slideThumbActiveClass": "instant-slider-thumb-active", "thumbsContainerClass": "instant-slider-thumbs" }, "a11y": { "enabled": true, "notificationClass": "instant-slider-notification" }, "containerModifierClass": "instant-slider-", "noSwipingClass": "instant-slider-no-swiping", "slideClass": "instant-slider-slide", "slideBlankClass": "instant-slider-slide-blank", "slideActiveClass": "instant-slider-slide-active", "slideVisibleClass": "instant-slider-slide-visible", "slideFullyVisibleClass": "instant-slider-slide-fully-visible", "slideNextClass": "instant-slider-slide-next", "slidePrevClass": "instant-slider-slide-prev", "wrapperClass": "instant-slider-wrapper", "lazyPreloaderClass": "instant-slider-lazy-preloader", "on": {} }
+    ><div class="i5XrvnCt88dSXa82l" data-instant-type="container" id="i5XrvnCt88dSXa82l"
+      ><div class="ihZhK1P5Xwr9UsalA" data-instant-type="container"
+        ><div class="instant-slider-container iLmDiAqAeQzNyNBKr" data-instant-type="slider-container"
+          ><div class="iRxKK6O4zjkC515MX" data-instant-type="container">
+            <script type="application/json" id="instant-slider-8oOLuCbimONf1s5M-params">
+              { "breakpoints": { "0": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": 1, "freeMode": false, "centeredSlides": true, "centerInsufficientSlides": true, "spaceBetween": 0 }, "576": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": 1, "freeMode": false, "centeredSlides": true, "centerInsufficientSlides": true, "spaceBetween": 0 } }, "navigation": false, "watchOverflow": true, "thumbs": { "slideThumbActiveClass": "instant-slider-thumb-active", "thumbsContainerClass": "instant-slider-thumbs" }, "a11y": { "enabled": true, "notificationClass": "instant-slider-notification" }, "containerModifierClass": "instant-slider-", "noSwipingClass": "instant-slider-no-swiping", "slideClass": "instant-slider-slide", "slideBlankClass": "instant-slider-slide-blank", "slideActiveClass": "instant-slider-slide-active", "slideVisibleClass": "instant-slider-slide-visible", "slideFullyVisibleClass": "instant-slider-slide-fully-visible", "slideNextClass": "instant-slider-slide-next", "slidePrevClass": "instant-slider-slide-prev", "wrapperClass": "instant-slider-wrapper", "lazyPreloaderClass": "instant-slider-lazy-preloader", "on": {} }
             </script>
-            <div class="instant-slider iWSoCIqfibgke5lFW" data-instant-slider-id="WSoCIqfibgke5lFW" id="WSoCIqfibgke5lFW" data-instant-type="slider"
+            <div class="instant-slider i8oOLuCbimONf1s5M" data-instant-slider-id="8oOLuCbimONf1s5M" id="8oOLuCbimONf1s5M" data-instant-type="slider"
               ><div class="instant-slider-wrapper">
                 {%- liquid
                   assign images_without_variant = '' | split: ''
@@ -32,33 +32,35 @@
                 -%}
                 {%- for image in images -%}
                   {%- if forloop.length > 0 -%}
-                    {%- assign repeater_index_3L5lWSipYAkwHv8Q = forloop.index0 -%}
-                    <div class="instant-slider-slide i3L5lWSipYAkwHv8Q" data-instant-type="slider-slide"
-                      ><div data-instant-type="image" class="iRcwMhcZTAphVWcIy"><img alt="{{ image.alt }}" src="{{ image | image_url: width: 800 }}" data-instant-dynamic-content-source="REPEATER" data-instant-repeater-id="3L5lWSipYAkwHv8Q" data-instant-repeater-index="{{ repeater_index_3L5lWSipYAkwHv8Q }}" width="{{ image.width }}" height="{{ image.height }}" srcSet="{{ image | image_url: width: 360 }} 360w, {{ image | image_url: width: 640 }} 640w, {{ image | image_url: width: 750 }} 750w, {{ image | image_url: width: 828 }} 828w, {{ image | image_url: width: 1080 }} 1080w, {{ image | image_url: width: 1200 }} 1200w, {{ image | image_url: width: 1920 }} 1920w, {{ image | image_url: width: 2048 }} 2048w, {{ image | image_url: width: 3840 }} 3840w" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div
+                    {%- assign repeater_index_ZnbYek07OJD4LmN5 = forloop.index0 -%}
+                    <div class="instant-slider-slide iZnbYek07OJD4LmN5" data-instant-type="slider-slide"
+                      ><div data-instant-type="image" class="iiN0ioILP0hA3vxM0"><img alt="{{ image.alt }}" src="{{ image | image_url: width: 800 }}" data-instant-dynamic-content-source="REPEATER" data-instant-repeater-id="ZnbYek07OJD4LmN5" data-instant-repeater-index="{{ repeater_index_ZnbYek07OJD4LmN5 }}" width="{{ image.width }}" height="{{ image.height }}" srcSet="{{ image | image_url: width: 360 }} 360w, {{ image | image_url: width: 640 }} 640w, {{ image | image_url: width: 750 }} 750w, {{ image | image_url: width: 828 }} 828w, {{ image | image_url: width: 1080 }} 1080w, {{ image | image_url: width: 1200 }} 1200w, {{ image | image_url: width: 1920 }} 1920w, {{ image | image_url: width: 2048 }} 2048w, {{ image | image_url: width: 3840 }} 3840w" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div
                     ></div>
                   {%- endif -%}
-                {%- endfor -%}</div></div
-            ><button class="instant-slider-button instant-slider-button-prev instant-slider-WSoCIqfibgke5lFW-button-prev iaOOJAcG7iY3xfHrP" data-instant-type="slider-button-prev" type="button"
-              ><div data-instant-type="icon" class="i2AwQOLULcFZTDaoM">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                  <title>arrow-left</title><path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
-                </svg></div></button
-            ><button class="instant-slider-button instant-slider-button-next instant-slider-WSoCIqfibgke5lFW-button-next iabntMGv4XGiIQtyw" data-instant-type="slider-button-next" type="button"
-              ><div data-instant-type="icon" class="iEk7ZrH6ItGCazOaV">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                  <title>arrow-right</title><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path>
-                </svg></div></button></div
-          ><div class="instant-slider-container iLJ1C1jYgFjtCzV0Z" data-instant-type="slider-container">
-            <script type="application/json" id="instant-slider-q0JNdGDmrL3k4JBR-params">
-              { "breakpoints": { "0": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": 4, "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 7 }, "576": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": 3, "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 16 }, "769": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": 4, "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 16 } }, "navigation": false, "watchOverflow": true, "watchSlidesProgress": true, "a11y": { "enabled": true, "notificationClass": "instant-slider-notification" }, "containerModifierClass": "instant-slider-", "noSwipingClass": "instant-slider-no-swiping", "slideClass": "instant-slider-slide", "slideBlankClass": "instant-slider-slide-blank", "slideActiveClass": "instant-slider-slide-active", "slideVisibleClass": "instant-slider-slide-visible", "slideFullyVisibleClass": "instant-slider-slide-fully-visible", "slideNextClass": "instant-slider-slide-next", "slidePrevClass": "instant-slider-slide-prev", "wrapperClass": "instant-slider-wrapper", "lazyPreloaderClass": "instant-slider-lazy-preloader", "on": {} }
+                {%- endfor -%}</div></div></div
+          ><div class="instant-slider-container isLgAOJJfn6Jr0j5B" data-instant-type="slider-container">
+            <script type="application/json" id="instant-slider-64PUPaJDhOXYrZcV-params">
+              { "breakpoints": { "0": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": 5, "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 8 }, "576": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": 5, "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 16 }, "769": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": 5, "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 16 } }, "navigation": false, "watchOverflow": true, "watchSlidesProgress": true, "a11y": { "enabled": true, "notificationClass": "instant-slider-notification" }, "containerModifierClass": "instant-slider-", "noSwipingClass": "instant-slider-no-swiping", "slideClass": "instant-slider-slide", "slideBlankClass": "instant-slider-slide-blank", "slideActiveClass": "instant-slider-slide-active", "slideVisibleClass": "instant-slider-slide-visible", "slideFullyVisibleClass": "instant-slider-slide-fully-visible", "slideNextClass": "instant-slider-slide-next", "slidePrevClass": "instant-slider-slide-prev", "wrapperClass": "instant-slider-wrapper", "lazyPreloaderClass": "instant-slider-lazy-preloader", "on": {} }
             </script>
-            <div class="instant-slider instant-slider-thumbs iq0JNdGDmrL3k4JBR" data-instant-slider-id="WSoCIqfibgke5lFW" id="q0JNdGDmrL3k4JBR" data-instant-type="thumbnails"
+            <div class="instant-slider instant-slider-thumbs i64PUPaJDhOXYrZcV" data-instant-slider-id="8oOLuCbimONf1s5M" id="64PUPaJDhOXYrZcV" data-instant-type="thumbnails"
               ><div class="instant-slider-wrapper">
                 {%- liquid
-                  assign images_without_variant = '' | split: ''
-                  assign featured_image = product.selected_or_first_available_variant.featured_image | default: product_image
+                  assign product_LWhvm4eE2cfhWCh0_handle = 'gosmooth-ipl-kit-pro'
+                  assign product_LWhvm4eE2cfhWCh0 = section.settings.product_LWhvm4eE2cfhWCh0 | default: all_products[product_LWhvm4eE2cfhWCh0_handle]
+                  assign product_LWhvm4eE2cfhWCh0_variant = product_LWhvm4eE2cfhWCh0.selected_or_first_available_variant
 
-                  for image in product.images
+                  if product_LWhvm4eE2cfhWCh0.selected_variant
+                    assign product_LWhvm4eE2cfhWCh0_variant = product_LWhvm4eE2cfhWCh0.selected_variant
+                  endif
+
+                  assign product_LWhvm4eE2cfhWCh0_image = product_LWhvm4eE2cfhWCh0_variant.featured_image | default: product_LWhvm4eE2cfhWCh0.featured_image
+                -%}
+                <!--  -->
+                {%- liquid
+                  assign images_without_variant = '' | split: ''
+                  assign featured_image = product_LWhvm4eE2cfhWCh0_variant.featured_image | default: product_LWhvm4eE2cfhWCh0_image
+
+                  for image in product_LWhvm4eE2cfhWCh0.images
                     if image.id != featured_image.id
                       assign image_element = image | sort
                       assign images_without_variant = images_without_variant | concat: image_element
@@ -69,371 +71,434 @@
                 -%}
                 {%- for image in images -%}
                   {%- if forloop.length > 0 -%}
-                    {%- assign repeater_index_uN3IlQpWI8zxcvrJ = forloop.index0 -%}
-                    <div class="instant-slider-slide iuN3IlQpWI8zxcvrJ" data-instant-type="slider-slide"
-                      ><div data-instant-type="image" class="iyCwDsWnUsuk3b9HX"><img alt="{{ image.alt }}" src="{{ image | image_url: width: 800 }}" data-instant-dynamic-content-source="REPEATER" data-instant-repeater-id="uN3IlQpWI8zxcvrJ" data-instant-repeater-index="{{ repeater_index_uN3IlQpWI8zxcvrJ }}" width="{{ image.width }}" height="{{ image.height }}" srcSet="{{ image | image_url: width: 360 }} 360w, {{ image | image_url: width: 640 }} 640w, {{ image | image_url: width: 750 }} 750w, {{ image | image_url: width: 828 }} 828w, {{ image | image_url: width: 1080 }} 1080w, {{ image | image_url: width: 1200 }} 1200w, {{ image | image_url: width: 1920 }} 1920w, {{ image | image_url: width: 2048 }} 2048w, {{ image | image_url: width: 3840 }} 3840w" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div
+                    {%- assign repeater_index_LWhvm4eE2cfhWCh0 = forloop.index0 -%}
+                    <div class="instant-slider-slide iLWhvm4eE2cfhWCh0" data-instant-type="slider-slide" data-instant-form-product-url="{{ product_LWhvm4eE2cfhWCh0.url }}" data-instant-form-variant-id="{{ product_LWhvm4eE2cfhWCh0_variant.id }}"
+                      ><div data-instant-type="image" class="ipNaaDz0XG16aHuU4"><img alt="{{ image.alt }}" src="{{ image | image_url: width: 800 }}" data-instant-dynamic-content-source="REPEATER" data-instant-repeater-id="LWhvm4eE2cfhWCh0" data-instant-repeater-index="{{ repeater_index_LWhvm4eE2cfhWCh0 }}" width="{{ image.width }}" height="{{ image.height }}" srcSet="{{ image | image_url: width: 360 }} 360w, {{ image | image_url: width: 640 }} 640w, {{ image | image_url: width: 750 }} 750w, {{ image | image_url: width: 828 }} 828w, {{ image | image_url: width: 1080 }} 1080w, {{ image | image_url: width: 1200 }} 1200w, {{ image | image_url: width: 1920 }} 1920w, {{ image | image_url: width: 2048 }} 2048w, {{ image | image_url: width: 3840 }} 3840w" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div
                     ></div>
                   {%- endif -%}
-                {%- endfor -%}</div></div></div></div
-        ><div class="iizx4NEnZATmRsAob" data-instant-type="container"
-          ><div class="ipKph9jft0zhRKZIN" data-instant-type="container"
-            ><div class="iWLf1k3hintchvLXk" data-instant-type="container"
-              ><div class="ikznBqWiNk9fYs9GD" data-instant-type="container"
-                ><div class="ijkGe4fohFzqyzrZm" data-instant-type="container"
-                  ><div data-instant-type="icon" class="iTzZeXQjpGyzL0DF1">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                      <title>star</title><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path>
-                    </svg></div
-                  ><div class="ikvZV8polgywXFju8" data-instant-type="container"
-                    ><div data-instant-type="icon" class="iRSGwu68qvsScCJsH">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                        <title>star</title><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path>
-                      </svg></div></div
-                  ><div class="iGEEI3MdVaMBvWhR5" data-instant-type="container"
-                    ><div data-instant-type="icon" class="i5YHk2mviNUIHSsX8">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                        <title>star</title><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path>
-                      </svg></div></div
-                  ><div class="i7o523lcDKvDpHfHC" data-instant-type="container"
-                    ><div data-instant-type="icon" class="ixVX7IEeFpi4tJfy4">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                        <title>star</title><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path>
-                      </svg></div></div
-                  ><div class="iUIEnUFb3FyaDVOOD" data-instant-type="container"
-                    ><div data-instant-type="icon" class="iJTyy7rtX8CuTKVVI">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                        <title>star</title><path d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"></path>
-                      </svg></div></div></div
-                ><div data-instant-type="text" class="instant-rich-text iiu8aKherMH0Rt8yj"><p>Vertrouwd door 22.000+ vrouwen</p></div></div
-              ><div class="iDns61OBaEklEBPbN" data-instant-type="container"
-                ><h3 data-instant-dynamic-content-source="TITLE" data-instant-type="text" class="iZjDv4zt0uMDd1Ei3">{{ product.title }}</h3><div data-instant-type="text" class="instant-rich-text i87w5kjqJznOX91P9"><p>Onthaar ieder lichaamsdeel binnen no-time met het sterkste IPL apparaat op de markt.</p></div></div
-              ><div class="iY2PI4pyTBAdIRU3A" data-instant-type="container">
-                {%- liquid
-                  assign style = ''
-                  assign compare_at_price = product.selected_or_first_available_variant.compare_at_price
-                  assign variant_price = product.selected_or_first_available_variant.price
+                {%- endfor -%}</div></div></div></div></div
+      ><div class="iFdpbqLxLSgLbQgGm" data-instant-type="container"
+        ><div class="ioe2SStgFONzNHx7p" data-instant-type="container"
+          ><div class="ihR7VCktsnkwgqxKy" data-instant-type="container"
+            ><div class="iIEEddf94toCh8W9g" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/xDxFr8OY86Xyk7E8/35981cc511c5dcbfd03648952855c7fad10b63fd.svg" width="74" height="15" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="eager" fetchpriority="high"></div><div data-instant-type="text" class="instant-rich-text iWzOYUe328dzh5PpG"><p>Vertrouwd door 22.000+ vrouwen</p></div></div
+          ><div class="iq0RfU3buw9XJYKuj" data-instant-type="container"
+            ><div data-instant-type="text" class="instant-rich-text imTl1YQTGxc21Vj22"><p>GoSmooth IPL Kit Pro</p></div
+            ><div data-instant-type="text" class="instant-rich-text io8UgwHyeOq8xFuTE"><p>Onthaar ieder lichaamsdeel binnen no-time met het sterkste IPL apparaat op de markt.</p></div></div
+          ><div class="i0vV7bR0ukqfFkC8R" data-instant-type="container">
+            {%- liquid
+              assign style = ''
+              assign compare_at_price = product.selected_or_first_available_variant.compare_at_price
+              assign variant_price = product.selected_or_first_available_variant.price
 
-                  if product.selected_or_first_available_variant.selected_selling_plan_allocation
-                    assign compare_at_price = product.selected_or_first_available_variant.selected_selling_plan_allocation.compare_at_price
-                    assign variant_price = product.selected_or_first_available_variant.selected_selling_plan_allocation.price
-                  endif
+              if product.selected_or_first_available_variant.selected_selling_plan_allocation
+                assign compare_at_price = product.selected_or_first_available_variant.selected_selling_plan_allocation.compare_at_price
+                assign variant_price = product.selected_or_first_available_variant.selected_selling_plan_allocation.price
+              endif
 
-                  if compare_at_price <= variant_price or compare_at_price == 0 or compare_at_price == null
-                    assign style = 'style="display: none;"'
-                  endif
-                -%}
-                <span
-                  data-instant-dynamic-content-source="COMPARE_AT"
-                  class="irg5gGOnNWrDFEWw4"
-                  {{- style -}}
-                >
-                  {{- compare_at_price | money -}}
-                </span>
+              if compare_at_price <= variant_price or compare_at_price == 0 or compare_at_price == null
+                assign style = 'style="display: none;"'
+              endif
+            -%}
+            <span
+              data-instant-dynamic-content-source="COMPARE_AT"
+              class="ib5HYnyoJRSblKYc6"
+              {{- style -}}
+            >
+              {{- compare_at_price | money -}}
+            </span>
 
-                <p data-instant-dynamic-content-source="PRICE" data-instant-type="text" class="i93jgM1vCrdENJMrd">
-                  {%- liquid
-                    assign variant_price = product.selected_or_first_available_variant.price
+            <p data-instant-dynamic-content-source="PRICE" data-instant-type="text" class="ipOzGet1R9yv69NZy">
+              {%- liquid
+                assign variant_price = product.selected_or_first_available_variant.price
 
-                    if product.selected_or_first_available_variant.selected_selling_plan_allocation
-                      assign variant_price = product.selected_or_first_available_variant.selected_selling_plan_allocation.price
-                    endif
-                  -%}
-                  {{- variant_price | money -}}</p
-                ><div class="idlEto82Sh4q8GgRi" data-instant-type="container"
-                  ><div class="iJzuoinxiuX14a2nT" data-instant-type="container">
-                    {%- liquid
-                      assign style = ''
-
-                      assign compare_at_price = product.selected_or_first_available_variant.compare_at_price
-                      assign variant_price = product.selected_or_first_available_variant.price
-
-                      if product.selected_or_first_available_variant.selected_selling_plan_allocation
-                        assign compare_at_price = product.selected_or_first_available_variant.selected_selling_plan_allocation.compare_at_price
-                        assign variant_price = product.selected_or_first_available_variant.selected_selling_plan_allocation.price
-                      endif
-
-                      assign saved_amount = compare_at_price | minus: variant_price | times: 100 | divided_by: compare_at_price
-
-                      if compare_at_price <= variant_price or saved_amount <= 0 or compare_at_price == null
-                        assign style = 'style="display: none;"'
-                      endif
-                    -%}
-                    <span
-                      data-instant-dynamic-content-source="SAVED_PERCENTAGE"
-                      class="iaoowv4nwTUS4ItK4"
-                      {{- style -}}
-                    >
-                      {{- saved_amount -}}
-                      %
-                    </span>
-
-                    <div data-instant-type="text" class="instant-rich-text iCaXy7fmyaa6WS3Py"><p>Korting</p></div></div
-                  ></div
-                ></div
-              ><div class="i08n1GDyuZDgSJh69" data-instant-type="container"
-                ><a
-                  conditionals=""
-                  class="izGxslYwMM7iScYpj"
-                  data-instant-type="container"
-                  href="{{ routes.cart_url }}/{{ product.selected_or_first_available_variant.id }}:1?storefront=true"
-                  rel="noopener noreferrer"
-                  data-instant-action-type="add-to-cart"
-                  data-instant-action-id="{{ product.id }}"
-                  data-instant-action-variant-id="{{ product.selected_or_first_available_variant.id }}"
-                  data-instant-disabled="
-                    {%- if product.selected_or_first_available_variant.available == false and product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
-                    	true
-                    {%-	endif -%}
-                  "
-                  ><div data-instant-type="text" class="instant-rich-text iaV1ljZWTnbzOsP1D"><p>Voeg toe aan winkelwagen</p></div></a
-                ><div data-instant-type="text" class="instant-rich-text i9zLbm5pWRToi0tp9"><p>Gratis verzending | 30 dagen bedenktijd</p></div></div
+                if product.selected_or_first_available_variant.selected_selling_plan_allocation
+                  assign variant_price = product.selected_or_first_available_variant.selected_selling_plan_allocation.price
+                endif
+              -%}
+              {{- variant_price | money -}}</p
+            ><div class="i5mU7RZTFAQxKMjZC" data-instant-type="container"
+              ><div data-instant-type="text" class="instant-rich-text iPNRSYMWKuTPsdiQZ"><p>40% korting!</p></div></div
+            ></div
+          ><div class="icZBiv5mpJzS7PSrT" data-instant-type="container"
+            ><a
+              class="iAYlQAMCtpeghQNz1"
+              data-instant-type="container"
+              href="{{ routes.cart_url }}/{{ product.selected_or_first_available_variant.id }}:1?storefront=true"
+              rel="noopener noreferrer"
+              data-instant-action-type="redirect-to-cart"
+              data-instant-action-id="{{ product.id }}"
+              data-instant-action-variant-id="{{ product.selected_or_first_available_variant.id }}"
+              data-instant-disabled="
+                {%- if product.selected_or_first_available_variant.available == false and product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
+                	true
+                {%-	endif -%}
+              "
+              ><div data-instant-type="text" class="instant-rich-text iPrPwiueRQlHzDzs8"><p>Voeg toe aan winkelwagen</p></div></a
+            ><div class="iPc5OYiENj2tc9Jr2" data-instant-type="container"
+              ><div data-instant-type="image" class="iz8Qe6fpAvhZ1qSGr"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/w17f3ScnflDUUqHV/39ad64de1b08fa00991eb8418a19aa2be6e15b02.svg" width="10" height="11" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div
+              ><div class="ibjp0BrzVc9KrYW7k" data-instant-type="container"
+                ><div data-instant-type="text" class="instant-rich-text iQfv8jBQoNjQa7r9g"><p>14 dagen bedenktijd</p></div></div
               ></div
-            ><div class="i4THwdTNqvtyZ73UX" data-instant-type="container"
-              ><div class="iPPIJhNRWQJP0xJ0n" data-instant-type="container"
-                ><div data-instant-type="text" class="instant-rich-text im9l1KgrVf8OKzkz9"><p>Ga thuis meteen aan de slag met de GoSmooth IPL Pro. De volledige kit bevat een scheermes, waarmee je vooraf de behandeling het lichaamshaar verwijdert.</p></div></div
-              ><div class="iVatOlsxlvh1e0z4l" data-instant-type="container"
-                ><div class="iSMYddrFWTn5HSSjh" data-instant-type="container"
-                  ><div class="iUjKRuJW9qeVMV4wC" data-instant-type="container"
-                    ><div class="iRqrHrNnMALamKr7j" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/dSB75peoMJaENglX/18b9a418588d2ad087c16b10c2e00c69fff011ba.svg" width="33" height="32" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="eager" fetchpriority="high"></div><div data-instant-type="text" class="instant-rich-text iL01Q8jLoxWbgQqjW"><p>Geschikt voor het hele lichaam</p></div></div
+            ></div
+          ></div
+        ><div class="i1shKLraQukxWk0pc" data-instant-type="container"
+          ><div class="instant-slider-container iEr5JwUWrXOsl2cAv" data-instant-type="slider-container">
+            <script type="application/json" id="instant-slider-Km85dn9ezkZfFCrz-params">
+              { "breakpoints": { "0": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": "auto", "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 8 }, "576": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": "auto", "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 8 }, "769": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": "auto", "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 8 } }, "navigation": false, "watchOverflow": true, "a11y": { "enabled": true, "notificationClass": "instant-slider-notification" }, "containerModifierClass": "instant-slider-", "noSwipingClass": "instant-slider-no-swiping", "slideClass": "instant-slider-slide", "slideBlankClass": "instant-slider-slide-blank", "slideActiveClass": "instant-slider-slide-active", "slideVisibleClass": "instant-slider-slide-visible", "slideFullyVisibleClass": "instant-slider-slide-fully-visible", "slideNextClass": "instant-slider-slide-next", "slidePrevClass": "instant-slider-slide-prev", "wrapperClass": "instant-slider-wrapper", "lazyPreloaderClass": "instant-slider-lazy-preloader", "on": {} }
+            </script>
+            <div class="instant-slider iKm85dn9ezkZfFCrz" data-instant-slider-id="Km85dn9ezkZfFCrz" id="Km85dn9ezkZfFCrz" data-instant-type="slider"
+              ><div class="instant-slider-wrapper"
+                ><div class="instant-slider-slide i3XiKcKmgE9nCMHwa" data-instant-type="slider-slide"
+                  ><div data-instant-type="image" class="iaF2pEZqN4UNea4tC"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/qGcgm0d60oOEZcjY/trustpilot-stars.svg" width="64" height="13" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text iurTabzH5KeuxYhuN"><p>"Echt een top apparaat, mijn haren waren al 6 behandelingen weg. Ik kan dit iedere vrouw aanraden!"</p></div
+                  ><div class="iBckeOCZagYiDKdck" data-instant-type="container"
+                    ><div class="iWbtd3v9fI2QxKDJc" data-instant-type="container"
+                      ><div data-instant-type="text" class="instant-rich-text iIw6qp45GVMnOPyRQ"><p>E</p></div></div
+                    ><div data-instant-type="text" class="instant-rich-text iBpQHnHz1cs4TaQh6"><p>Emma</p></div></div
                   ></div
-                ><div class="ivDRQNBTT6KwZDlEo" data-instant-type="container"
-                  ><div class="iiM79mkeIZRGcdgMV" data-instant-type="container"
-                    ><div class="ijqUKpUVE5Dr8fVin" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/AqKQagBuc1tDgM6T/5d5a4e63009696c86f9117dfd3c7889918a672d3.svg" width="33" height="32" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="eager" fetchpriority="high"></div><div data-instant-type="text" class="instant-rich-text ioQvBUnRth6A0uOWs"><p>Razendsnel haren verwijderen</p></div></div
+                ><div class="instant-slider-slide iV355JAdBEk3xmLGB" data-instant-type="slider-slide"
+                  ><div data-instant-type="image" class="i4zl4ZGZ62UfProVw"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/qGcgm0d60oOEZcjY/trustpilot-stars.svg" width="64" height="13" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text iXUAZaFKPAOgnzL91"><p>"Supersnelle en correcte levering. Helemaal top!"</p></div
+                  ><div class="iQCFDy0KYncOgpFfz" data-instant-type="container"
+                    ><div class="iNUcXygB7o6s33PPD" data-instant-type="container"
+                      ><div data-instant-type="text" class="instant-rich-text ilKw4Swxl2l2oTRmH"><p>C</p></div></div
+                    ><div data-instant-type="text" class="instant-rich-text iWoVygMTybD7LW9Dx"><p>Costa</p></div></div
                   ></div
-                ><div class="iKcV4eR8mJQqSMdaI" data-instant-type="container"
-                  ><div class="iITv2C8uRSubAPrVN" data-instant-type="container"
-                    ><div class="iFd0BhPZjNdosTruh" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/b7BwXg9cwolS8ub1/20c71c124b6dd35106957ae81a679a6acf01b6ae.svg" width="33" height="32" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="eager" fetchpriority="high"></div><div data-instant-type="text" class="instant-rich-text iYCZyNXVk4sfS74fp"><p>Ruim 1.000.000 flitsen</p></div></div
+                ><div class="instant-slider-slide iqrjryPnqGkSMr0eV" data-instant-type="slider-slide"
+                  ><div data-instant-type="image" class="iaivZm71bjfHAM1L9"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/qGcgm0d60oOEZcjY/trustpilot-stars.svg" width="64" height="13" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text imgX4ZWERY6JajkxH"><p>"Na 9 weken kan ik zeggen dat ik al super blij ben met de resultaten. Dit is echt een aanrader meiden!"</p></div
+                  ><div class="iK9XZRgEZXDkXHinn" data-instant-type="container"
+                    ><div class="iTLpNmgEDVpt1o27f" data-instant-type="container"
+                      ><div data-instant-type="text" class="instant-rich-text i8es5AgJyqqTrRY4K"><p>W</p></div></div
+                    ><div data-instant-type="text" class="instant-rich-text imP6HJ3a820cAyK0S"><p>Willemijntje</p></div></div
+                  ></div
+                ><div class="instant-slider-slide izRXbS37N8sBc8Pwj" data-instant-type="slider-slide"
+                  ><div data-instant-type="image" class="iJ7ejlQZ3I5QUh9Ee"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/qGcgm0d60oOEZcjY/trustpilot-stars.svg" width="64" height="13" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text iVZUcbXdOvOG3guP3"><p>"Ik gebruik de Gosmooth IPL al bijna 5 maanden en het is echt een uitkomst. Veel makkelijker en beter dan scheren."</p></div
+                  ><div class="iaXUDMUUunMda0FGI" data-instant-type="container"
+                    ><div class="iQli7Rkt8CtnhkTqa" data-instant-type="container"
+                      ><div data-instant-type="text" class="instant-rich-text iDiZid0qgVgmp5weF"><p>N</p></div></div
+                    ><div data-instant-type="text" class="instant-rich-text iilZczUpsXq3Pjg5E"><p>Nathalie</p></div></div
+                  ></div
+                ><div class="instant-slider-slide iCFcITfpYEPEgqFIU" data-instant-type="slider-slide"
+                  ><div data-instant-type="image" class="i1vIdgi16tZFXLAAx"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/qGcgm0d60oOEZcjY/trustpilot-stars.svg" width="64" height="13" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text iGzdA4ZqvhAxSYWD0"><p>"Top ding! Ik heb altijd die van Philips gehad (die veel duurder is), maar deze heeft dezelfde kracht en werking"</p></div
+                  ><div class="iNA5EscDCtNYfwESA" data-instant-type="container"
+                    ><div class="iLZkXwgMekCDwpm54" data-instant-type="container"
+                      ><div data-instant-type="text" class="instant-rich-text ifVDeHDdjawaG3mAb"><p>M</p></div></div
+                    ><div data-instant-type="text" class="instant-rich-text i0nyReU3jhxapv6Yk"><p>Maria</p></div></div
                   ></div
                 ></div
-              ><div class="iFs9W5ypLvGvuR2mb" data-instant-type="accordion-container" data-is-first-open="true" data-is-multi-open-enabled="false"
-                ><div data-state="open" class="i6dydBJJB6Mds8hJL" data-instant-type="accordion-item"
-                  ><button class="ikp4oF6uSDYTmzjTx" data-instant-type="accordion-header" type="button"
-                    ><div class="iz68AvTxYYMWrOVv0" data-instant-type="container"
-                      ><div class="iE8fPhlsfOOuLWA7z" data-instant-type="container"
-                        ><div data-instant-type="image" class="ibWO1a3tuO9Cwv01I"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/KHl1XO56VbQwLTOK/4b36b7cfddeda8515bc6f8893e284325524496d5.svg" width="16" height="17" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text iexQ2Ah0bgia3ddn8"><h3>Hoe werkt het?</h3></div></div
-                      ></div
-                    ><div data-instant-type="icon" class="ir4438VkNAQZX6hSU">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                        <title>plus</title><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
-                      </svg></div></button
-                  ><div class="idpRWVrRgGDFkbTjG" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
-                    ><div data-instant-type="text" class="instant-rich-text iaUwcp8k0mRwcmaL9"><h3>Met de GoSmooth IPL-apparaten worden lichtpulsen afgegeven aan</h3><h3>de huid die worden opgenomen door melanine in het haar.</h3><h3></h3><h3>De warmte in het melanine wordt overgebracht naar het haarzakje. Deze warmte zorgt ervoor dat het haarzakje in een rustfase komt waarin haargroei wordt voorkomen.</h3></div></div
-                  ></div
-                ><div data-state="closed" class="iHwXzwZgYumFuHwKc" data-instant-type="accordion-item"
-                  ><button class="ilnFZlZc2xowBmu1s" data-instant-type="accordion-header" type="button"
-                    ><div class="iTpCMYjPsIG60mmZF" data-instant-type="container"
-                      ><div class="iJw60YvDLL93eY4US" data-instant-type="container"
-                        ><div data-instant-type="image" class="i4LasK8zpSYhMIZDk"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/Ne0wdMrItPHZUj5i/525a06eaf7d6d159f3713138d18176eb7f0f61bd.svg" width="18" height="18" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text igirABegPhLwaDG96"><h3>Specificaties</h3></div></div
-                      ></div
-                    ><div data-instant-type="icon" class="iAGBIIbQFrZfH7bGj">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                        <title>plus</title><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
-                      </svg></div></button
-                  ><div class="i3OSNguygmnVmthZi" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
-                    ><div data-instant-type="text" class="instant-rich-text i7hfn0wEFtQ3H5WdA"
-                      ><ul
-                        ><li><h3>10 Krachtige Standen</h3></li
-                        ><li><h3>Energie Niveau 7.0 J/cm²</h3></li
-                        ><li><h3>Flits Venster Oppervlak 420 mm²</h3></li
-                        ><li><h3>Golflengte max 1200 nm</h3></li
-                        ><li><h3>1.000.000 Flitsen</h3></li
-                        ><li><h3>Automatische Flits Stand</h3></li
-                        ><li><h3>Snelheid: 1 Flits per seconde</h3></li
-                        ><li><h3>1 Jaar Garantie</h3></li></ul
-                      ></div
-                    ></div
-                  ></div
-                ><div data-state="closed" class="iIvyuPpRb7WfWFMSA" data-instant-type="accordion-item"
-                  ><button class="iZQeVjKMnC6B9bLQn" data-instant-type="accordion-header" type="button"
-                    ><div class="iLwKA3XF8IQ0d3y6l" data-instant-type="container"
-                      ><div class="iEzEsFA6yZYAIaMV8" data-instant-type="container"
-                        ><div data-instant-type="image" class="iRtXVB2GEyX2rz79s"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/Ne0wdMrItPHZUj5i/525a06eaf7d6d159f3713138d18176eb7f0f61bd.svg" width="18" height="18" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text iVr2lsHSnOq7p9AIo"><h3>Wat is IPL eigenlijk?</h3></div></div
-                      ></div
-                    ><div data-instant-type="icon" class="iG4uBDTg2hskIpnmz">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                        <title>plus</title><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
-                      </svg></div></button
-                  ><div class="iZ8Fb5HCpXX3T5AKt" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
-                    ><div data-instant-type="text" class="instant-rich-text ipix1Ii2549ccFAAD"><h3>Met de GoSmooth IPL-apparaten worden lichtpulsen afgegeven aan de huid die worden opgenomen door melanine in het haar.</h3><h3></h3><h3>De warmte in het melanine wordt overgebracht naar het haarzakje. Deze warmte zorgt ervoor dat het haarzakje in een rustfase komt waarin haargroei wordt voorkomen.</h3></div></div
-                  ></div
-                ><div data-state="closed" class="iyAQ6NcG4L2iLUHEf" data-instant-type="accordion-item"
-                  ><button class="iUFlAKPRNzZMIMujh" data-instant-type="accordion-header" type="button"
-                    ><div class="iQu8VicTHZhg0dmGu" data-instant-type="container"
-                      ><div class="iuY1E2bRc6wUtll67" data-instant-type="container"
-                        ><div data-instant-type="image" class="iutw2dRL8G8CiKZlq"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/bdcazSbGtTvArnkW/0ef04b4eb5ff508ddd97eb1f0358e8501ea4aa32.svg" width="16" height="16" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text ij1xy0fTYTOH787mW"><h3>Verzending &amp; retourneren</h3></div></div
-                      ></div
-                    ><div data-instant-type="icon" class="isoIf2oZnYTCsfYSy">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                        <title>plus</title><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
-                      </svg></div></button
-                  ><div class="is5DAs3sd7S010m7C" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
-                    ><div data-instant-type="text" class="instant-rich-text iuU2AV5zyGd7pEm8D"
-                      ><h3><strong>Verzending</strong></h3
-                      ><h3>Al onze bestellingen worden verstuurd met DHL, de standaard levertijd is 1 tot 2 werkdagen. Let er op dat de levertijd soms langer kan zijn in verband met vertragingen rond het piekseizoen. De verzending is gratis voor bestellingen boven €25. Voor bestellingen onder €25 geld een vast tarief van €5.</h3><h3></h3><h3><strong>Retourbeleid</strong></h3
-                      ><h3>U heeft het recht uw bestelling tot 14 dagen na ontvangst zonder opgave van reden te annuleren. U heeft na annulering nogmaals 14 dagen om uw product retour te sturen. U krijgt dan het volledige orderbedrag inclusief verzendkosten gecrediteerd.</h3></div
-                    ></div
-                  ></div
+              ></div
+            ></div
+          ></div
+        ><div class="iIdAYNohAEFRBCKWp" data-instant-type="container"
+          ><div class="iGuV60FpCZUgQ9LMD" data-instant-type="container"
+            ><div data-instant-type="image" class="i2HJGBVumDvphjsge"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nHHj9nCdQpqNbgCR/box-icon.svg" width="22" height="22" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text idH2w5JTCDWBr0Pv1"><p>Gratis wereldwijde verzending</p></div></div
+          ><div class="ivWvyHSZE5EWf1yCk" data-instant-type="container"></div
+          ><div class="imuohpW96NHPwK7JY" data-instant-type="container"
+            ><div data-instant-type="image" class="i6yjPWNyfsvzG73yh"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/fMu7xEBeHZ1WCdco/return-icon.svg" width="22" height="22" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text iA6J7rE2XJSplvA8J"><p>Kosteloos retourneren</p></div></div
+          ><div class="ieCl0QzBEufM8Oju8" data-instant-type="container"></div
+          ><div class="i64t3eFKWXaJXWvKj" data-instant-type="container"
+            ><div data-instant-type="image" class="iYVDYtYkLu0hU5YNZ"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/zT3sBmNN8mjPUtZL/verified-icon.svg" width="22" height="22" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text i1kziZPCiTKHnD726"><p>Geschikt voor het hele lichaam</p></div></div
+          ></div
+        ><div class="ibifc7HjGV5YozpOY" data-instant-type="container"
+          ><div data-instant-type="text" class="instant-rich-text i6LJHsWzowvfu2oHc"><p>Ga thuis meteen aan de slag met de GoSmooth IPL Pro. De volledige kit bevat een scheermes, waarmee je vooraf de behandeling het lichaamshaar verwijdert. </p></div
+          ><div class="iQ38VGI26BYKIunEA" data-instant-type="accordion-container" data-is-first-open="true" data-is-multi-open-enabled="false"
+            ><div data-state="open" class="it3zqyILNfwl467Dl" data-instant-type="accordion-item"
+              ><button class="i1nQpXs1WTbD8mI5b" data-instant-type="accordion-header" type="button"
+                ><div class="iB8d47w1Gk3KBevFa" data-instant-type="container"
+                  ><div data-instant-type="image" class="iDPS3g2NGEG9JKG9j"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/QHXdvSjUi3nQTlYG/7930d3f80b7873dc8096ba84a02ee09d3ea947b3.svg" width="18" height="20" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text ifCRinnBuwmm1TNfq"><p>Hoe werkt IPL techniek?</p></div></div
+                ><div data-instant-type="icon" class="i3Hfw3bXB1MvUwkne">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
+                    <title>x</title><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
+                  </svg></div></button
+              ><div class="iYvYCeOXvpfOSoVvt" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
+                ><div data-instant-type="text" class="instant-rich-text itphGLQmh9cEimnXW"><p>Met de GoSmooth IPL-apparaten worden lichtpulsen afgegeven aan de huid die worden opgenomen door melanine in het haar.</p><p></p><p>De warmte in het melanine wordt overgebracht naar het haarzakje. Deze warmte zorgt ervoor dat het haarzakje in een rustfase komt waarin haargroei wordt voorkomen.</p></div></div
+              ></div
+            ><div data-state="closed" class="iTH778DUpZrBlPbJy" data-instant-type="accordion-item"
+              ><button class="iXUHe31vk7gb4ZYp4" data-instant-type="accordion-header" type="button"
+                ><div class="iIgB4fMAN6js3agqQ" data-instant-type="container"
+                  ><div data-instant-type="image" class="iqDDgOU588UqiwBTA"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/mBWCDXbFSrR7iRRU/question-icon.svg" width="18" height="20" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text iQh8Lo4U6XmnlJ3J7"><p>Waar kan ik het gebruiken?</p></div></div
+                ><div data-instant-type="icon" class="imj9BBxDBlN94jfCt">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
+                    <title>x</title><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
+                  </svg></div></button
+              ><div class="i7ajZgCVyEcDPzGcH" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
+                ><div data-instant-type="text" class="instant-rich-text ixKrCZq4lyYqVZHtJ"><p>De GoSmooth IPL apparaten kunnen op elk lichaamsdeel gebruikt worden waar haargroei is (inclusief de bikinilijn &amp; vrouwelijke geslachtsdelen)</p></div></div
+              ></div
+            ><div data-state="closed" class="iZo7CrV7AZAJHPCvZ" data-instant-type="accordion-item"
+              ><button class="irHA0dQ9yASHCVkIb" data-instant-type="accordion-header" type="button"
+                ><div class="i580LhYGnPsFuO0g9" data-instant-type="container"
+                  ><div data-instant-type="image" class="iKXRqEyJfniEOY1dD"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/1KATcHI6Z4Mkiv1A/fast-icon.svg" width="18" height="20" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text iPHdtlzC2J7fWZvrh"><p>Hoe snel zie ik resultaat?</p></div></div
+                ><div data-instant-type="icon" class="ig58WuKwDkF4BhzM4">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
+                    <title>x</title><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
+                  </svg></div></button
+              ><div class="iCCcMHATtR8HNon6H" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
+                ><div data-instant-type="text" class="instant-rich-text iElez97whfMxiKRFa"><p>Wij raden aan om het GoSmooth IPL apparaat 1 keer per week te gebruiken. Dit geldt zowel voor de GoSmooth IPL Classic als voor de GoSmooth IPL Pro.</p><p></p><p>De eerste resultaten zie je al na 4 behandelingen. Wij raden aan om onze IPL set voor minimaal 12 behandelingen te gebruiken om het resultaat te maximaliseren!</p></div></div
+              ></div
+            ><div data-state="closed" class="ivtuXCqYvMQLT1wL7" data-instant-type="accordion-item"
+              ><button class="iUi3X9kj0P1kMog8v" data-instant-type="accordion-header" type="button"
+                ><div class="iG20GvPOOK6c3Cyv2" data-instant-type="container"
+                  ><div data-instant-type="image" class="impEAquwT2IiYwtvF"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/1KATcHI6Z4Mkiv1A/fast-icon.svg" width="18" height="20" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main instant-responsive instant-responsive--desktop instant-responsive--laptop instant-responsive--tablet"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nHHj9nCdQpqNbgCR/box-icon.svg" width="22" height="22" decoding="async" loading="eager" fetchpriority="high" class="instant-image instant-image__main instant-responsive instant-responsive--mobile"></div><div data-instant-type="text" class="instant-rich-text ilNJK6bw9ziovjtXu"><p>Verzending &amp; Retourneren</p></div></div
+                ><div data-instant-type="icon" class="izy2g8wR4IB4dRNZA">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
+                    <title>x</title><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
+                  </svg></div></button
+              ><div class="ikfxOPit2iIdhnLhC" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
+                ><div data-instant-type="text" class="instant-rich-text iTRCUoJ6FHRFBAjs3"
+                  ><p><strong>Verzending</strong></p
+                  ><p>Al onze bestellingen worden verstuurd met DHL, de standaard levertijd is 1 tot 2 werkdagen. Let er op dat de levertijd soms langer kan zijn in verband met vertragingen rond het piekseizoen. De verzending is gratis voor bestellingen boven €25. Voor bestellingen onder €25 geld een vast tarief van €5.</p><p></p><p><strong>Retourbeleid</strong></p
+                  ><p>U heeft het recht uw bestelling tot 14 dagen na ontvangst zonder opgave van reden te annuleren. U heeft na annulering nogmaals 14 dagen om uw product retour te sturen. U krijgt dan het volledige orderbedrag inclusief verzendkosten gecrediteerd.</p></div
                 ></div
               ></div
             ></div
           ></div
         ></div
       ></div
-    ><div class="idJkWLWXt3ZFWinoq" data-instant-type="container" id="idJkWLWXt3ZFWinoq"
-      ><div class="iGtigGzXtYKCauIOL" data-instant-type="container"
-        ><div class="iueMoYz9oyGzi5JE9" data-instant-type="container"
-          ><div data-instant-type="text" class="instant-rich-text ix7I7XHHpAuvOUxoS"><p>Bekend van onder andere:</p></div
-          ><div class="iBoTTAq8E02GhsCVX" data-instant-type="container"
-            ><div class="iXxSJF0fpFsoinFLM" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/JnzQOSjMWtTAhwgH/155dc611babb58399a70aae5ebaef1d77bf3ea0c.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/JnzQOSjMWtTAhwgH/155dc611babb58399a70aae5ebaef1d77bf3ea0c.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/JnzQOSjMWtTAhwgH/155dc611babb58399a70aae5ebaef1d77bf3ea0c.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/JnzQOSjMWtTAhwgH/155dc611babb58399a70aae5ebaef1d77bf3ea0c.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/JnzQOSjMWtTAhwgH/155dc611babb58399a70aae5ebaef1d77bf3ea0c.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/JnzQOSjMWtTAhwgH/155dc611babb58399a70aae5ebaef1d77bf3ea0c.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/JnzQOSjMWtTAhwgH/155dc611babb58399a70aae5ebaef1d77bf3ea0c.png?width=1280" width="1270" height="636" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="eager" fetchpriority="auto"></div><div class="iQX9VnxJLr05PPxJv" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/q21nA9SQCK2P4451/5040a4ab77d57cadc90cff9997d01fe5c9a69c11.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/q21nA9SQCK2P4451/5040a4ab77d57cadc90cff9997d01fe5c9a69c11.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/q21nA9SQCK2P4451/5040a4ab77d57cadc90cff9997d01fe5c9a69c11.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/q21nA9SQCK2P4451/5040a4ab77d57cadc90cff9997d01fe5c9a69c11.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/q21nA9SQCK2P4451/5040a4ab77d57cadc90cff9997d01fe5c9a69c11.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/q21nA9SQCK2P4451/5040a4ab77d57cadc90cff9997d01fe5c9a69c11.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/q21nA9SQCK2P4451/5040a4ab77d57cadc90cff9997d01fe5c9a69c11.png?width=1280" width="2560" height="680" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="eager" fetchpriority="auto"></div><div class="iJLKcZMKjlQWscsJt" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/T8AXtQ6ZNSRmMQJp/99451612a95850e05989f7db6ef569bc49768e4e.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/T8AXtQ6ZNSRmMQJp/99451612a95850e05989f7db6ef569bc49768e4e.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/T8AXtQ6ZNSRmMQJp/99451612a95850e05989f7db6ef569bc49768e4e.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/T8AXtQ6ZNSRmMQJp/99451612a95850e05989f7db6ef569bc49768e4e.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/T8AXtQ6ZNSRmMQJp/99451612a95850e05989f7db6ef569bc49768e4e.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/T8AXtQ6ZNSRmMQJp/99451612a95850e05989f7db6ef569bc49768e4e.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/T8AXtQ6ZNSRmMQJp/99451612a95850e05989f7db6ef569bc49768e4e.png?width=1280" width="2560" height="492" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="eager" fetchpriority="auto"></div><div class="iqasoCvW5ETLYkm6e" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CUFWndsVoLqYYg3t/c6b667af1fdcc92800559703f9d857acad5c284e.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CUFWndsVoLqYYg3t/c6b667af1fdcc92800559703f9d857acad5c284e.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CUFWndsVoLqYYg3t/c6b667af1fdcc92800559703f9d857acad5c284e.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CUFWndsVoLqYYg3t/c6b667af1fdcc92800559703f9d857acad5c284e.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CUFWndsVoLqYYg3t/c6b667af1fdcc92800559703f9d857acad5c284e.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CUFWndsVoLqYYg3t/c6b667af1fdcc92800559703f9d857acad5c284e.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CUFWndsVoLqYYg3t/c6b667af1fdcc92800559703f9d857acad5c284e.png?width=1280" width="1280" height="524" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="eager" fetchpriority="auto"></div></div></div
-        ><div data-instant-type="image" class="imEj6r83UIfJbZI1H"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/Vg8vQQlp7IoPL1Qp/curve-bottom.svg" width="393" height="18" decoding="async" loading="eager" fetchpriority="auto" class="instant-image instant-image__main"></div><div data-instant-type="image" class="iNLon1UqAsxbdVhEf"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/Vg8vQQlp7IoPL1Qp/curve-bottom.svg" width="393" height="18" decoding="async" loading="eager" fetchpriority="auto" class="instant-image instant-image__main"></div></div></div
-    ><div class="imMlE7TGmhOe2tiPT" data-instant-type="container" id="imMlE7TGmhOe2tiPT"
-      ><div class="iYSFhUjmJRtLamx5V" data-instant-type="container"
-        ><div data-instant-type="text" class="instant-rich-text iwmTzO84xZW1mBwEv"><p>De voordelen</p></div
-        ><div data-instant-type="text" class="instant-rich-text i0dU6iLKIsa6cpgv9"><p>Waarom jij fan zult zijn van GoSmooth</p></div></div
-      ><div class="iiMkdBbkHj1omflHh" data-instant-type="container"
-        ><div class="iD8FFNjvyPxMhbiCc" data-instant-type="container"
-          ><div class="ifBXqYouwsy7McRMp" data-instant-type="container"
-            ><div class="i1CrXVKQFeEyiBuwv" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/LlBfC43VpWLo9mPq/0b75e4ad28869af53f1a3e1054e4a13447fcfd44.svg" width="24" height="24" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div
-            ><div data-instant-type="text" class="instant-rich-text iuQlfEYdJ8jMOucBX"
-              ><p>Behaal salon-resultaten in <strong>je eigen huis</strong></p></div
+    ><div class="iBSmhxTt36Ftv2UAo" data-instant-type="container" id="iBSmhxTt36Ftv2UAo"
+      ><div data-instant-type="text" class="instant-rich-text ihIfW3Pc4E6xs93Y5"><p>Bekend van onder andere:</p></div
+      ><div class="iTZACQVjaNQROcC9f" data-instant-type="container"
+        ><div data-instant-type="image" class="idE8CPszZOFLgMufN"><img alt="" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/KJLA3WU0leIqv4Aa/libelle.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/KJLA3WU0leIqv4Aa/libelle.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/KJLA3WU0leIqv4Aa/libelle.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/KJLA3WU0leIqv4Aa/libelle.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/KJLA3WU0leIqv4Aa/libelle.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/KJLA3WU0leIqv4Aa/libelle.png?width=1200 1200w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/KJLA3WU0leIqv4Aa/libelle.png?width=1920 1920w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/KJLA3WU0leIqv4Aa/libelle.png?width=2048 2048w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/KJLA3WU0leIqv4Aa/libelle.png?width=3840 3840w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/KJLA3WU0leIqv4Aa/libelle.png" width="512" height="256" decoding="async" loading="eager" fetchpriority="auto" class="instant-image instant-image__main"></div><div data-instant-type="image" class="iPeiMY7JYDb04Tzp7"><img alt="" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/e9Rf1yIatRqp25kr/vogue.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/e9Rf1yIatRqp25kr/vogue.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/e9Rf1yIatRqp25kr/vogue.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/e9Rf1yIatRqp25kr/vogue.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/e9Rf1yIatRqp25kr/vogue.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/e9Rf1yIatRqp25kr/vogue.png?width=1200 1200w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/e9Rf1yIatRqp25kr/vogue.png?width=1920 1920w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/e9Rf1yIatRqp25kr/vogue.png?width=2048 2048w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/e9Rf1yIatRqp25kr/vogue.png?width=3840 3840w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/e9Rf1yIatRqp25kr/vogue.png" width="965" height="256" decoding="async" loading="eager" fetchpriority="auto" class="instant-image instant-image__main"></div><div data-instant-type="image" class="ipGa8uLvfiSQPfbsi"><img alt="" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/67PXiI2X1OEd3iwk/cosmopolitan.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/67PXiI2X1OEd3iwk/cosmopolitan.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/67PXiI2X1OEd3iwk/cosmopolitan.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/67PXiI2X1OEd3iwk/cosmopolitan.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/67PXiI2X1OEd3iwk/cosmopolitan.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/67PXiI2X1OEd3iwk/cosmopolitan.png?width=1200 1200w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/67PXiI2X1OEd3iwk/cosmopolitan.png?width=1920 1920w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/67PXiI2X1OEd3iwk/cosmopolitan.png?width=2048 2048w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/67PXiI2X1OEd3iwk/cosmopolitan.png?width=3840 3840w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/67PXiI2X1OEd3iwk/cosmopolitan.png" width="1333" height="256" decoding="async" loading="eager" fetchpriority="auto" class="instant-image instant-image__main"></div><div data-instant-type="image" class="izIaOoecaphmguug5"><img alt="" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PmsuVfzeQhN5p1bm/elle.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PmsuVfzeQhN5p1bm/elle.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PmsuVfzeQhN5p1bm/elle.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PmsuVfzeQhN5p1bm/elle.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PmsuVfzeQhN5p1bm/elle.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PmsuVfzeQhN5p1bm/elle.png?width=1200 1200w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PmsuVfzeQhN5p1bm/elle.png?width=1920 1920w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PmsuVfzeQhN5p1bm/elle.png?width=2048 2048w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PmsuVfzeQhN5p1bm/elle.png?width=3840 3840w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PmsuVfzeQhN5p1bm/elle.png" width="627" height="256" decoding="async" loading="eager" fetchpriority="auto" class="instant-image instant-image__main"></div></div></div
+    ><div class="iB7a8zl8m0hpNz2pI" data-instant-type="container" id="iB7a8zl8m0hpNz2pI"
+      ><div class="icx9uXJhcCgLgYZ87" data-instant-type="container"
+        ><div class="il309obervyReOd4j" data-instant-type="container"
+          ><div class="iNRNTZ7XwDt9omD5j" data-instant-type="container"
+            ><div data-instant-type="text" class="instant-rich-text iak3pmUpiw0YZGG7d"><p>De voordelen</p></div
+            ><div data-instant-type="text" class="instant-rich-text iZroqZBXvuDZQfJ2s"><p>Waarom jij fan zult zijn van GoSmooth</p></div></div
+          ><div class="iP75qD3Ep3bmgsihs" data-instant-type="container"
+            ><div class="i6CiJWFZTj5TLJmY5" data-instant-type="container"
+              ><div data-instant-type="image" class="ie9qNa9IjfwDYGbYv"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/o8bobaX1JUB4oeR6/house-icon.svg" width="16" height="18" decoding="async" loading="lazy" fetchpriority="auto" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text iGU34a9g4fZx0fNqq"><p>Behaal salon-resultaten in je eigen huis</p></div></div
+            ><div class="iceg9NQ7aS48X21L3" data-instant-type="container"
+              ><div data-instant-type="image" class="i3qgHuJwi9XMAwU13"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/fcIUsfouN2A2waGJ/time-icon.svg" width="16" height="18" decoding="async" loading="lazy" fetchpriority="auto" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text i8UO8O4V5cuDvH1tl"><p>Behandel grote gebieden in enkele minuten</p></div></div
+            ><div class="iQeRQkiyZLCP8nDyk" data-instant-type="container"
+              ><div data-instant-type="image" class="iG2WmZaSLBMMg9oLz"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/QT9MsKbaDCQVCht2/pijnloos-icon.svg" width="16" height="18" decoding="async" loading="lazy" fetchpriority="auto" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text igSUhd5DvyNxufY3C"><p>Pijnloos en geschikt voor alle huidtypes</p></div></div
+            ><div class="i5GGghNm1yAmg7r0x" data-instant-type="container"
+              ><div data-instant-type="image" class="iQ94DdGoYbJcai3I4"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/hsQIQ3GAQizApvaX/calendar-icon.svg" width="16" height="18" decoding="async" loading="lazy" fetchpriority="auto" class="instant-image instant-image__main"></div><div data-instant-type="text" class="instant-rich-text i8C1cIeCoX9PAwbqz"><p>Geniet langdurig van een gladde huid</p></div></div
             ></div
-          ><div class="i4XZSskIHfMNPWXF5" data-instant-type="container"
-            ><div class="iln63lpcy20nQzf6n" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/cgnxile5rkwp4Qlw/889c480f74e9cb5a16a5eee2d5d4f9a4eb82dd5a.svg" width="24" height="24" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div
-            ><div data-instant-type="text" class="instant-rich-text iyuyXs9qiR4zS23bt"
-              ><p>Behandel grote gebieden in <strong>enkele minuten</strong></p></div
-            ></div
-          ><div class="iqI1GJiHxL90XYynk" data-instant-type="container"
-            ><div class="idMDBj0euRAmUKoHJ" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/JJNzEu40spB6VEP2/69ac616ae7a243377cddc9dfa3f69269d5f16dbd.svg" width="24" height="24" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div
-            ><div data-instant-type="text" class="instant-rich-text iApWzgWMRqMcOCuhR"
-              ><p><strong>Pijnloos</strong> en geschikt voor een gevoelige huid</p></div
-            ></div
-          ><div class="iepNmjcvlGfhG1T9E" data-instant-type="container"
-            ><div class="iCIpKKYaTJqvRHKf1" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/jf9xjhsaKaxqdNIz/bffec1f078551a7fc42889c31d8d7baf09ab037f.svg" width="24" height="24" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div
-            ><div data-instant-type="text" class="instant-rich-text ikSxXvuVtpfTF5g7k"
-              ><p><strong>Geniet langdurig</strong> van een gladde huid</p></div
+          ><div class="iov9qXNSZeUexsyOT" data-instant-type="container"
+            ><a
+              class="ii3CrnQVsmV8qLFpt"
+              data-instant-type="container"
+              href="{{ routes.cart_url }}/{{ product.selected_or_first_available_variant.id }}:1?storefront=true"
+              rel="noopener noreferrer"
+              data-instant-action-type="redirect-to-cart"
+              data-instant-action-id="{{ product.id }}"
+              data-instant-action-variant-id="{{ product.selected_or_first_available_variant.id }}"
+              data-instant-disabled="
+                {%- if product.selected_or_first_available_variant.available == false and product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
+                	true
+                {%-	endif -%}
+              "
+              ><div data-instant-type="text" class="instant-rich-text iBSZb35Q7G9PPZKrb"><p>Voeg toe aan winkelwagen</p></div></a
+            ><div class="ircomW5L6uhxM3arU" data-instant-type="container"
+              ><div data-instant-type="image" class="iNqIzvzivudYFYAZW"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/w17f3ScnflDUUqHV/39ad64de1b08fa00991eb8418a19aa2be6e15b02.svg" width="10" height="11" decoding="async" loading="lazy" fetchpriority="auto" class="instant-image instant-image__main"></div
+              ><div class="i3pKSuII16OlEEe87" data-instant-type="container"
+                ><div data-instant-type="text" class="instant-rich-text imZnkaQCLUtyC4JKm"><p>14 dagen bedenktijd</p></div></div
+              ></div
             ></div
           ></div
-        ><div class="irwMwZiYt58CruBVc" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/Qg7e0sT6MC2LD5Q0/thumbnailgosmooth35802cf4-abee-4d5e-8386-8086e9385328png.webp?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/Qg7e0sT6MC2LD5Q0/thumbnailgosmooth35802cf4-abee-4d5e-8386-8086e9385328png.webp?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/Qg7e0sT6MC2LD5Q0/thumbnailgosmooth35802cf4-abee-4d5e-8386-8086e9385328png.webp?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/Qg7e0sT6MC2LD5Q0/thumbnailgosmooth35802cf4-abee-4d5e-8386-8086e9385328png.webp?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/Qg7e0sT6MC2LD5Q0/thumbnailgosmooth35802cf4-abee-4d5e-8386-8086e9385328png.webp?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/Qg7e0sT6MC2LD5Q0/thumbnailgosmooth35802cf4-abee-4d5e-8386-8086e9385328png.webp?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/Qg7e0sT6MC2LD5Q0/thumbnailgosmooth35802cf4-abee-4d5e-8386-8086e9385328png.webp?width=1280" width="1627" height="907" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div></div
-      ><div class="i44vHw1fP46Y8rVYs" data-instant-type="container"
-        ><a
-          class="iMQrFAdSQZznEVUx8"
-          data-instant-type="container"
-          href="{{ routes.cart_url }}/{{ product.selected_or_first_available_variant.id }}:1?storefront=true"
-          rel="noopener noreferrer"
-          data-instant-action-type="redirect-to-cart"
-          data-instant-action-id="{{ product.id }}"
-          data-instant-action-variant-id="{{ product.selected_or_first_available_variant.id }}"
-          data-instant-disabled="
-            {%- if product.selected_or_first_available_variant.available == false and product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
-            	true
-            {%-	endif -%}
-          "
-          ><div data-instant-type="text" class="instant-rich-text iH9SGUpVPxB3Jjnif"><p>Voeg toe aan winkelwagen</p></div></a
-        ><div data-instant-type="text" class="instant-rich-text iVDjKPs27ynS9PCJ0"><p>Gratis verzending | 30 dagen bedenktijd</p></div></div
-      ></div
-    ><div class="ivs4mhjsnYTxcYF9B" data-instant-type="container" id="ivs4mhjsnYTxcYF9B"
-      ><div class="iMkzI5qfvNTnhanLR" data-instant-type="container"
-        ><div data-instant-type="text" class="instant-rich-text itsBhl4XtZf7XjAJ8"><p>De voordelen</p></div
-        ><div data-instant-type="text" class="instant-rich-text izJkFwkfAVzgtn4ek"><p>Het weghalen van haren was nog nooit zo simpel</p></div></div
-      ><div class="itiHSnHyEMb0o5Nwb" data-instant-type="container"
-        ><div class="iwSBTkpUev4RnM9DA" data-instant-type="container"
-          ><div class="ikv2xDTYbH1L9s8WJ" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PePosRYf8eBVG8fR/step-1-img.jpg?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PePosRYf8eBVG8fR/step-1-img.jpg?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PePosRYf8eBVG8fR/step-1-img.jpg?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PePosRYf8eBVG8fR/step-1-img.jpg?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PePosRYf8eBVG8fR/step-1-img.jpg?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PePosRYf8eBVG8fR/step-1-img.jpg?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PePosRYf8eBVG8fR/step-1-img.jpg?width=1280" width="722" height="452" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div
-          ><div class="idt2pSyxiPCa5xvHz" data-instant-type="container"
-            ><div class="iLU3TXP4bZWuxiiTj" data-instant-type="container"
-              ><div class="iK8wH2DGgshhBwFEs" data-instant-type="container"
-                ><div data-instant-type="text" class="instant-rich-text iE3mQfQH05ajwhcyH"><p>1</p></div></div
-              ><div data-instant-type="text" class="instant-rich-text iHsAq1zMbNU11l9d5"><p>Bereid je huid voor</p></div></div
-            ><div data-instant-type="text" class="instant-rich-text id65XTcJgJBCfXnPM"><p>Scheer het gebied wat je graag haarvrij zou willen maken vóór de behandeling. Op deze manier werkt de IPL kit het beste.</p></div></div
+        ><div class="iYNgmGvd2CcH1p6Gf" data-instant-type="container"
+          ><div class="iF5FdeXukwBTv48qR" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/R8jc4lvboXZ9gU1P/review-visual.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/R8jc4lvboXZ9gU1P/review-visual.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/R8jc4lvboXZ9gU1P/review-visual.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/R8jc4lvboXZ9gU1P/review-visual.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/R8jc4lvboXZ9gU1P/review-visual.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/R8jc4lvboXZ9gU1P/review-visual.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/R8jc4lvboXZ9gU1P/review-visual.png?width=1280" width="1081" height="1081" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div></div></div></div
+    ><div class="iof4jOErWd4B8FpVM" data-instant-type="container" id="iof4jOErWd4B8FpVM"
+      ><div class="i7VH7gi43hmIktIdu" data-instant-type="container"
+        ><div data-instant-type="text" class="instant-rich-text iAqf1HnphxMyRPOCF"><p>Reviews</p></div
+        ><div data-instant-type="text" class="instant-rich-text iqaBTSs09j4qfgIRm"><p>Ontdek waarom 20.000+ mensen kozen voor GoSmooth</p></div></div
+      ><div class="instant-slider-container iYTR1V0ltt7KOIPLM" data-instant-type="slider-container">
+        <script type="application/json" id="instant-slider-vwyXdOnbqVaGa3oW-params">
+          { "breakpoints": { "0": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": "auto", "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 8 }, "576": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": "auto", "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 16 }, "769": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": "auto", "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 16 } }, "navigation": false, "watchOverflow": true, "a11y": { "enabled": true, "notificationClass": "instant-slider-notification" }, "containerModifierClass": "instant-slider-", "noSwipingClass": "instant-slider-no-swiping", "slideClass": "instant-slider-slide", "slideBlankClass": "instant-slider-slide-blank", "slideActiveClass": "instant-slider-slide-active", "slideVisibleClass": "instant-slider-slide-visible", "slideFullyVisibleClass": "instant-slider-slide-fully-visible", "slideNextClass": "instant-slider-slide-next", "slidePrevClass": "instant-slider-slide-prev", "wrapperClass": "instant-slider-wrapper", "lazyPreloaderClass": "instant-slider-lazy-preloader", "on": {} }
+        </script>
+        <div class="instant-slider ivwyXdOnbqVaGa3oW" data-instant-slider-id="vwyXdOnbqVaGa3oW" id="vwyXdOnbqVaGa3oW" data-instant-type="slider"
+          ><div class="instant-slider-wrapper"
+            ><div class="instant-slider-slide iLGMBRTcPtFNG9qD0" data-instant-type="slider-slide"
+              ><div class="instant-video__container iAJ2TvCO1T59oCjIB" data-instant-type="video"
+                ><article class="instant-video__wrapper" data-title="Video" data-src="https://cdn.shopify.com/videos/c/o/v/13b75114938545b5b557cf3bd404eca8.mp4" data-type="external" style="background-image:url(https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/k5QJOytoNhGzebCp/kirsten-thumbnail.jpg)"
+                  ><button style="--video-button-color:#00adef" class="instant-video__button instant-external__button" type="button" aria-label="Watch Video">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" viewBox="0 0 256 256">
+                      <path d="M240,128a15.74,15.74,0,0,1-7.6,13.51L88.32,229.65a16,16,0,0,1-16.2.3A15.86,15.86,0,0,1,64,216.13V39.87a15.86,15.86,0,0,1,8.12-13.82,16,16,0,0,1,16.2.3L232.4,114.49A15.74,15.74,0,0,1,240,128Z"></path>
+                    </svg></button></article
+                ><span aria-hidden="true"><img class="instant-video__sizer" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%275625%27%20height=%2710000%27/%3e"></span></div></div
+            ><div class="instant-slider-slide iKl6CIv1fp8jkfnQ6" data-instant-type="slider-slide"
+              ><div class="instant-video__container iml7FXargKPx3eq6s" data-instant-type="video"
+                ><article class="instant-video__wrapper" data-title="Video" data-src="https://cdn.shopify.com/videos/c/o/v/f851f3134caa42dc86d2d1d98a859916.mp4" data-type="external" style="background-image:url(https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/sZ4xw9s6AVMscz3L/masha-thumbnail.jpg)"
+                  ><button style="--video-button-color:#00adef" class="instant-video__button instant-external__button" type="button" aria-label="Watch Video">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" viewBox="0 0 256 256">
+                      <path d="M240,128a15.74,15.74,0,0,1-7.6,13.51L88.32,229.65a16,16,0,0,1-16.2.3A15.86,15.86,0,0,1,64,216.13V39.87a15.86,15.86,0,0,1,8.12-13.82,16,16,0,0,1,16.2.3L232.4,114.49A15.74,15.74,0,0,1,240,128Z"></path>
+                    </svg></button></article
+                ><span aria-hidden="true"><img class="instant-video__sizer" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%275625%27%20height=%2710000%27/%3e"></span></div></div
+            ><div class="instant-slider-slide iZSLnqnRRdHKB0G2W" data-instant-type="slider-slide"
+              ><div class="instant-video__container i9ddVJ8ytkV0viZaV" data-instant-type="video"
+                ><article class="instant-video__wrapper" data-title="Video" data-src="https://cdn.shopify.com/videos/c/o/v/bc87ba92a85247639a2e377e120211c1.mp4" data-type="external" style="background-image:url(https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/vounphuljXU3LfNh/bianca-thumbnail.jpg)"
+                  ><button style="--video-button-color:#00adef" class="instant-video__button instant-external__button" type="button" aria-label="Watch Video">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" viewBox="0 0 256 256">
+                      <path d="M240,128a15.74,15.74,0,0,1-7.6,13.51L88.32,229.65a16,16,0,0,1-16.2.3A15.86,15.86,0,0,1,64,216.13V39.87a15.86,15.86,0,0,1,8.12-13.82,16,16,0,0,1,16.2.3L232.4,114.49A15.74,15.74,0,0,1,240,128Z"></path>
+                    </svg></button></article
+                ><span aria-hidden="true"><img class="instant-video__sizer" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%275625%27%20height=%2710000%27/%3e"></span></div></div
+            ><div class="instant-slider-slide ipDxDNO0CKtPcs5kH" data-instant-type="slider-slide"
+              ><div class="instant-video__container iVu3e41wa9QLVpwmA" data-instant-type="video"
+                ><article class="instant-video__wrapper" data-title="Video" data-src="https://cdn.shopify.com/videos/c/o/v/b2e5b2b7092247fd8a45058f9dbdfcd3.mp4" data-type="external" style="background-image:url(https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/txuEzQi4p4oGLzdZ/merel-sanne-thumbnail.jpg)"
+                  ><button style="--video-button-color:#00adef" class="instant-video__button instant-external__button" type="button" aria-label="Watch Video">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" viewBox="0 0 256 256">
+                      <path d="M240,128a15.74,15.74,0,0,1-7.6,13.51L88.32,229.65a16,16,0,0,1-16.2.3A15.86,15.86,0,0,1,64,216.13V39.87a15.86,15.86,0,0,1,8.12-13.82,16,16,0,0,1,16.2.3L232.4,114.49A15.74,15.74,0,0,1,240,128Z"></path>
+                    </svg></button></article
+                ><span aria-hidden="true"><img class="instant-video__sizer" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%275625%27%20height=%2710000%27/%3e"></span></div></div></div></div></div></div
+    ><div class="iz2j5ejZSyZBcExLi" data-instant-type="container" id="iz2j5ejZSyZBcExLi"
+      ><div class="iWjYZl2Y4uYJP5XtG" data-instant-type="container"
+        ><div class="ig0LPdm8eRiVW0jwW" data-instant-type="container"
+          ><div class="ivuXarGfpS70ixXkn" data-instant-type="container"
+            ><div data-instant-type="text" class="instant-rich-text iKqIwuqtyIMOMEA9E"><p>Voor &amp; Na Gosmooth</p></div
+            ><div data-instant-type="text" class="instant-rich-text i82YQYC8TUUlCQNZ2"><p>Bekijk hoe snel je resultaat gaat zien</p></div></div
+          ><div data-instant-type="text" class="instant-rich-text iGBMmQgdnzDN4rQTH"><p>Dankzij de krachtige IPL technologie zie je binnen de kortste keren resultaat. Gebruik de IPL Pro volgens het meegeleverde schema en sta versteld van de snelle resultaten.</p></div></div
+        ><div class="iGmyZyjleREyeUv7j" data-instant-type="container"
+          ><div class="ikBL2SxxSwXxM7dbA" data-instant-type="tabs-container"
+            ><div class="iunlCjxdHTTUou4we" data-instant-type="tabs-menu"><button data-instant-state="inactive" data-instant-tab-id="Ep7JSzxeZUap1GRr" data-instant-tabs-id="kBL2SxxSwXxM7dbA" id="2BCIF31aeFhGYJmh_Ep7JSzxeZUap1GRr" type="button" class="i2BCIF31aeFhGYJmh i2BCIF31aeFhGYJmh" data-instant-type="tabs-trigger" content="[object Object]">2-4 weken</button><button data-instant-state="inactive" data-instant-tab-id="VaMwRfnHo4mDnTZL" data-instant-tabs-id="kBL2SxxSwXxM7dbA" id="2BCIF31aeFhGYJmh_VaMwRfnHo4mDnTZL" type="button" class="i2BCIF31aeFhGYJmh i2BCIF31aeFhGYJmh" data-instant-type="tabs-trigger" content="[object Object]">5-8 weken</button><button data-instant-state="inactive" data-instant-tab-id="mtk3pCiEYjtWxeHW" data-instant-tabs-id="kBL2SxxSwXxM7dbA" id="2BCIF31aeFhGYJmh_mtk3pCiEYjtWxeHW" type="button" class="i2BCIF31aeFhGYJmh i2BCIF31aeFhGYJmh" data-instant-type="tabs-trigger" content="[object Object]">8-12 weken</button></div
+            ><div class="ilzwDBDVgaJzcpMc0" data-instant-type="tabs-content"
+              ><div class="iEp7JSzxeZUap1GRr" id="Ep7JSzxeZUap1GRr" data-instant-type="tabs-pane"
+                ><div data-instant-type="image" class="iuXBBkbFrU4gjmxgH"><img alt="Placeholder" src="https://cdn.instant.so/static/templates/assets/placeholder-image.svg" decoding="async" loading="lazy" fetchpriority="auto" class="instant-image__fallback instant-image instant-image__main"></div></div
+              ><div class="iVaMwRfnHo4mDnTZL" id="VaMwRfnHo4mDnTZL" data-instant-type="tabs-pane"
+                ><div data-instant-type="image" class="iosFX9dPbi86WLYRX"><img alt="Placeholder" src="https://cdn.instant.so/static/templates/assets/placeholder-image.svg" decoding="async" loading="lazy" fetchpriority="auto" class="instant-image__fallback instant-image instant-image__main"></div></div
+              ><div class="imtk3pCiEYjtWxeHW" id="mtk3pCiEYjtWxeHW" data-instant-type="tabs-pane"
+                ><div data-instant-type="image" class="iylJbOnLSjkhmuguS"><img alt="Placeholder" src="https://cdn.instant.so/static/templates/assets/placeholder-image.svg" decoding="async" loading="lazy" fetchpriority="auto" class="instant-image__fallback instant-image instant-image__main"></div></div></div></div></div></div></div
+    ><div class="iBcpHdO3j0lS3Y6ku" data-instant-type="container" id="iBcpHdO3j0lS3Y6ku"
+      ><div class="iI61YHox3fEsrkl8d" data-instant-type="container"
+        ><div data-instant-type="text" class="instant-rich-text isM9JBJopUb2YZnz6"><p>Hoe het werkt</p></div
+        ><div data-instant-type="text" class="instant-rich-text iauNFTVr845Lh3rLr"><p>Het weghalen van haren was nog nooit zo simpel</p></div></div
+      ><div class="ijLZX1I4NFBwLQAoF" data-instant-type="container"
+        ><div class="iX6HZb62odbUEotCR" data-instant-type="container"
+          ><div class="iokUgtjPXwKTp354O" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/EWiy4erOqu43AZwi/bcabd23b6990475df96d48ca3c6f6020a9717ef3.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/EWiy4erOqu43AZwi/bcabd23b6990475df96d48ca3c6f6020a9717ef3.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/EWiy4erOqu43AZwi/bcabd23b6990475df96d48ca3c6f6020a9717ef3.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/EWiy4erOqu43AZwi/bcabd23b6990475df96d48ca3c6f6020a9717ef3.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/EWiy4erOqu43AZwi/bcabd23b6990475df96d48ca3c6f6020a9717ef3.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/EWiy4erOqu43AZwi/bcabd23b6990475df96d48ca3c6f6020a9717ef3.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/EWiy4erOqu43AZwi/bcabd23b6990475df96d48ca3c6f6020a9717ef3.png?width=1280" width="2731" height="4096" class="instant-fill instant-image__fill" style="object-fit:cover;object-position:54% 28%" decoding="async" loading="lazy" fetchpriority="auto"></div
+          ><div class="iBYjxJ2COQzFZMa4V" data-instant-type="container"
+            ><div class="ibSiQm0s06qvtPNIk" data-instant-type="container"
+              ><div class="ibIwOpnhvL7IwWYXr" data-instant-type="container"
+                ><div data-instant-type="text" class="instant-rich-text ivD84ype1FutJOtYG"><p>1</p></div></div
+              ><div data-instant-type="text" class="instant-rich-text i0wbc3FMO5gPILK8k"><p>Bereid je huid voor</p></div></div
+            ><div data-instant-type="text" class="instant-rich-text ijcCsbIiYOOWtPCI8"><p>Scheer het gebied wat je graag haarvrij zou willen maken vóór de behandeling. Op deze manier werkt de IPL kit het beste.</p></div></div
           ></div
-        ><div class="ix5OQn3TqoS3A5TWJ" data-instant-type="container"
-          ><div class="icpf1BipPJBwaOIAK" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/ptXpMT1LSyydmzF6/step-2-img.jpg?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/ptXpMT1LSyydmzF6/step-2-img.jpg?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/ptXpMT1LSyydmzF6/step-2-img.jpg?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/ptXpMT1LSyydmzF6/step-2-img.jpg?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/ptXpMT1LSyydmzF6/step-2-img.jpg?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/ptXpMT1LSyydmzF6/step-2-img.jpg?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/ptXpMT1LSyydmzF6/step-2-img.jpg?width=1280" width="722" height="452" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div
-          ><div class="ij1rbU28lgKCWvgo3" data-instant-type="container"
-            ><div class="iCGPXeCW1QkSWO0Y9" data-instant-type="container"
-              ><div class="iWexSwgKOrezUwqWN" data-instant-type="container"
-                ><div data-instant-type="text" class="instant-rich-text iNRAm0IXHV9Z8GcWm"><p>2</p></div></div
-              ><div data-instant-type="text" class="instant-rich-text iTGUV6sPkSdm4qPOY"><p>Kies jouw instelling</p></div></div
-            ><div data-instant-type="text" class="instant-rich-text iRupdl2OdJ2NPXRWx"><p>Selecteer de intensiteit via het ingebouwde scherm op onze IPL die het beste bij jouw huidtype en gewenste situatie past.</p></div></div
+        ><div class="iDpsss68BVChHNc8V" data-instant-type="container"
+          ><div class="iRaSCnpsGamgthY0I" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=1280" width="1728" height="1728" class="instant-fill instant-image__fill instant-responsive instant-responsive--desktop instant-responsive--laptop instant-responsive--tablet" style="object-fit:cover;object-position:35% 62%" decoding="async" loading="lazy" fetchpriority="auto"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/XW2OtFi10AxFboZ5/d91945727f70097e0a4d07f4a78fd6d86e37ee0b.png?width=1280" width="1728" height="1728" class="instant-fill instant-image__fill instant-responsive instant-responsive--mobile" style="object-fit:cover;object-position:32% 63%" decoding="async" loading="lazy" fetchpriority="auto"></div
+          ><div class="inNZ3efVjjwf53WKS" data-instant-type="container"
+            ><div class="iCedxs80r3N5sGVaJ" data-instant-type="container"
+              ><div class="il8ZLAX7ranq2TYLy" data-instant-type="container"
+                ><div data-instant-type="text" class="instant-rich-text iPnR4pksso2up1IeT"><p>2</p></div></div
+              ><div data-instant-type="text" class="instant-rich-text ix8fQdDbd5NsjL2k3"><p>Kies jouw instelling</p></div></div
+            ><div data-instant-type="text" class="instant-rich-text iheI3y9NoAPrPJoln"><p>Selecteer de intensiteit via het ingebouwde scherm op onze IPL die het beste bij jouw huidtype en gewenste situatie past.</p></div></div
           ></div
-        ><div class="iX89LD65dVudn6KO9" data-instant-type="container"
-          ><div class="ibUoCpSRa5RYqC8An" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PsLMhRxrLDz2veWB/step-3-img.jpg?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PsLMhRxrLDz2veWB/step-3-img.jpg?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PsLMhRxrLDz2veWB/step-3-img.jpg?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PsLMhRxrLDz2veWB/step-3-img.jpg?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PsLMhRxrLDz2veWB/step-3-img.jpg?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PsLMhRxrLDz2veWB/step-3-img.jpg?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PsLMhRxrLDz2veWB/step-3-img.jpg?width=1280" width="722" height="452" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div
-          ><div class="i7UFKsRGgsDDeG6Az" data-instant-type="container"
-            ><div class="iiZhXYOssts6qeCxQ" data-instant-type="container"
-              ><div class="iBXCYMlrQ9g7CZEj0" data-instant-type="container"
-                ><div data-instant-type="text" class="instant-rich-text ib3uWGFyTyVob8Upg"><p>3</p></div></div
-              ><div data-instant-type="text" class="instant-rich-text itAnfsbJZDpcAoQHR"><p>Glijd en straal</p></div></div
-            ><div data-instant-type="text" class="instant-rich-text iAUgbfITaG6OJpcRD"><p>Beweeg het apparaat over je huid en laat de IPL zijn werk doen. Je ziet al resultaat na de eerste behandeling!</p></div></div
+        ><div class="iWmZIgItwLkNdJjSi" data-instant-type="container"
+          ><div class="iI48XmXG9XRWI3hdo" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=1280" width="1500" height="1500" class="instant-fill instant-image__fill instant-responsive instant-responsive--desktop instant-responsive--laptop instant-responsive--tablet" style="object-fit:cover;object-position:39% 82%" decoding="async" loading="lazy" fetchpriority="auto"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nU53O7xWEzDiozAP/f729a15fb35a77d80b04cff4bca16b889b855870.png?width=1280" width="1500" height="1500" class="instant-fill instant-image__fill instant-responsive instant-responsive--mobile" style="object-fit:cover;object-position:41% 81%" decoding="async" loading="lazy" fetchpriority="auto"></div
+          ><div class="ipxCoSjVDoqTaJDAa" data-instant-type="container"
+            ><div class="idiCMATfPmiPxcGNn" data-instant-type="container"
+              ><div class="i0yaVeWAJ1bPIDrRL" data-instant-type="container"
+                ><div data-instant-type="text" class="instant-rich-text i18cghRiHbhg6JEAM"><p>3</p></div></div
+              ><div data-instant-type="text" class="instant-rich-text iFkxCpWM3F9fGfFDp"><p>Glijd en straal</p></div></div
+            ><div data-instant-type="text" class="instant-rich-text izGgxxoO1jqmf8tbM"><p>Beweeg het apparaat over je huid en laat de IPL zijn werk doen. Je ziet al resultaat na de eerste behandeling!</p></div></div
           ></div
         ></div
       ></div
-    ><div class="irKo4Vsf4aTo53vDv" data-instant-type="container" id="irKo4Vsf4aTo53vDv"
-      ><div class="i1f9IQSijPbajeGW7" data-instant-type="container"
-        ><div data-instant-type="text" class="instant-rich-text iDcspzRH4oqOZp9YD"><p>FAQ</p></div
-        ><div data-instant-type="text" class="instant-rich-text iBc6jcb8v6eR00s1m"><p>Heb je nog vragen? Wij hebben antwoorden!</p></div></div
-      ><div class="iNYfdMMhnm0wUtLDu" data-instant-type="accordion-container" data-is-first-open="true" data-is-multi-open-enabled="false"
-        ><div data-state="open" class="iqSxZgYtwWikswHqs" data-instant-type="accordion-item"
-          ><button class="ikSvMIIV8Og1Oj0MN" data-instant-type="accordion-header" type="button"
-            ><div class="iABelzVlFgWWpA6I0" data-instant-type="container"
-              ><div class="iOi8DlPMlsOb9YmAx" data-instant-type="container"
-                ><div data-instant-type="text" class="instant-rich-text iLAeiRzfQ9XqVbTEf"><h3>Hoe vaak moet ik het GoSmooth IPL apparaat gebruiken?</h3></div></div
+    ><div class="iI75WoMrs2JqTE9Ft" data-instant-type="container" id="iI75WoMrs2JqTE9Ft"
+      ><div class="instant-slider-container iN4lHCT9Q0cdB8aP7" data-instant-type="slider-container">
+        <script type="application/json" id="instant-slider-VzETlUPlAsyUi9jS-params">
+          { "breakpoints": { "0": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": "auto", "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 8 }, "576": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": "auto", "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 16 }, "769": { "speed": 300, "direction": "horizontal", "autoHeight": false, "slidesPerView": "auto", "freeMode": false, "centeredSlides": false, "centerInsufficientSlides": false, "spaceBetween": 16 } }, "navigation": false, "watchOverflow": true, "a11y": { "enabled": true, "notificationClass": "instant-slider-notification" }, "containerModifierClass": "instant-slider-", "noSwipingClass": "instant-slider-no-swiping", "slideClass": "instant-slider-slide", "slideBlankClass": "instant-slider-slide-blank", "slideActiveClass": "instant-slider-slide-active", "slideVisibleClass": "instant-slider-slide-visible", "slideFullyVisibleClass": "instant-slider-slide-fully-visible", "slideNextClass": "instant-slider-slide-next", "slidePrevClass": "instant-slider-slide-prev", "wrapperClass": "instant-slider-wrapper", "lazyPreloaderClass": "instant-slider-lazy-preloader", "on": {} }
+        </script>
+        <div class="instant-slider iVzETlUPlAsyUi9jS" data-instant-slider-id="VzETlUPlAsyUi9jS" id="VzETlUPlAsyUi9jS" data-instant-type="slider"
+          ><div class="instant-slider-wrapper"
+            ><div class="instant-slider-slide iJ9yGiAmCpGORbCpI" data-instant-type="slider-slide"
+              ><div class="i1hENEpAV382Earnm" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/6H7WXH3mVbvKGVy9/product-picture-1.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/6H7WXH3mVbvKGVy9/product-picture-1.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/6H7WXH3mVbvKGVy9/product-picture-1.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/6H7WXH3mVbvKGVy9/product-picture-1.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/6H7WXH3mVbvKGVy9/product-picture-1.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/6H7WXH3mVbvKGVy9/product-picture-1.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/6H7WXH3mVbvKGVy9/product-picture-1.png?width=1280" width="838" height="1404" class="instant-fill instant-image__fill" style="object-fit:cover;object-position:46% 64%" decoding="async" loading="lazy" fetchpriority="auto"></div
+              ><div class="i6whPBWeCupzPA11P" data-instant-type="container"
+                ><div class="i8Yz2QualGyFrsHjH" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/DlhJL75oNr8hBpY7/9daa794e6bf397f46fd46435afa43ef964380877.svg" width="64" height="12" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div><div data-instant-type="text" class="instant-rich-text iVnOeWoMnScAkDWu4"><p>"Het afgelopen half jaar heb ik netjes elke week een behandeling gedaan. Mijn oksels hoef ik nauwelijks meer te scheren. Ook mijn bovenbenen zijn eigenlijk volledig vrij van haartjes."</p></div
+                ><div class="imCxSFiOrPnqFL95k" data-instant-type="container"
+                  ><div class="isCW1pCyfI9Mat1jO" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/t8ziMMIdFWqpHXws/review-picture-1.jpg?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/t8ziMMIdFWqpHXws/review-picture-1.jpg?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/t8ziMMIdFWqpHXws/review-picture-1.jpg?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/t8ziMMIdFWqpHXws/review-picture-1.jpg?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/t8ziMMIdFWqpHXws/review-picture-1.jpg?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/t8ziMMIdFWqpHXws/review-picture-1.jpg?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/t8ziMMIdFWqpHXws/review-picture-1.jpg?width=1280" width="1848" height="2109" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div><div data-instant-type="text" class="instant-rich-text i260lAilMqjquC8Or"><p>Viola</p></div></div
+                ></div
               ></div
-            ><div data-instant-type="icon" class="iqlVb6EXHQYAvJgyO">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                <title>plus</title><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
-              </svg></div></button
-          ><div class="ievkcqsBZSfRHj6ua" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
-            ><div data-instant-type="text" class="instant-rich-text iUXB07UEw7SXLI6cf"><h3>Wij raden aan om het GoSmooth IPL apparaat 1 keer per week te gebruiken. Dit geldt zowel voor de GoSmooth IPL Classic als voor de GoSmooth IPL Pro.</h3></div></div
+            ><div class="instant-slider-slide iV1xo5Hz4O1lVXBOx" data-instant-type="slider-slide"
+              ><div class="iITHWftsrI8pCsfRT" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/iyvKsPXlCoCq5PPW/product-picture-2.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/iyvKsPXlCoCq5PPW/product-picture-2.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/iyvKsPXlCoCq5PPW/product-picture-2.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/iyvKsPXlCoCq5PPW/product-picture-2.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/iyvKsPXlCoCq5PPW/product-picture-2.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/iyvKsPXlCoCq5PPW/product-picture-2.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/iyvKsPXlCoCq5PPW/product-picture-2.png?width=1280" width="838" height="1474" class="instant-fill instant-image__fill" style="object-fit:cover;object-position:54% 51%" decoding="async" loading="lazy" fetchpriority="auto"></div
+              ><div class="iDdvZMH9kuf2UHlkt" data-instant-type="container"
+                ><div class="itK44AE2gZRDp5BPf" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/DlhJL75oNr8hBpY7/9daa794e6bf397f46fd46435afa43ef964380877.svg" width="64" height="12" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div><div data-instant-type="text" class="instant-rich-text iFNGPalzOAXH1hTbu"><p>Ik ben dit product toch maar gaan proberen nadat ik een aantal advertenties had gezien. In het begin dacht ik na een aantal behandelingen dat het niet ging werken. Maar ik ben nu weer een aantal weken verder en ik hoef gewoon bijna niet meer te scheren!!</p></div
+                ><div class="iHP9sxwvUs0jvp1BP" data-instant-type="container"
+                  ><div class="i9jnTX49bjHAKuY9s" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nyT1tDBXKPHYoDiV/review-picture-2.jpg?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nyT1tDBXKPHYoDiV/review-picture-2.jpg?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nyT1tDBXKPHYoDiV/review-picture-2.jpg?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nyT1tDBXKPHYoDiV/review-picture-2.jpg?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nyT1tDBXKPHYoDiV/review-picture-2.jpg?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nyT1tDBXKPHYoDiV/review-picture-2.jpg?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/nyT1tDBXKPHYoDiV/review-picture-2.jpg?width=1280" width="2384" height="4240" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div><div data-instant-type="text" class="instant-rich-text iOvrXaiy4u91JWBiz"><p>Ize</p></div></div
+                ></div
+              ></div
+            ><div class="instant-slider-slide iXGsZm3mL4UHiwDiA" data-instant-type="slider-slide"
+              ><div class="iSMvhp84QQxbuo7Pe" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PlRNqlrLe1vR55hy/product-picture-3.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PlRNqlrLe1vR55hy/product-picture-3.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PlRNqlrLe1vR55hy/product-picture-3.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PlRNqlrLe1vR55hy/product-picture-3.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PlRNqlrLe1vR55hy/product-picture-3.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PlRNqlrLe1vR55hy/product-picture-3.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/PlRNqlrLe1vR55hy/product-picture-3.png?width=1280" width="832" height="1408" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div
+              ><div class="iTs2mpGOYBpy6q9Vm" data-instant-type="container"
+                ><div class="iVMVT1R4jGtSEzvQF" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/DlhJL75oNr8hBpY7/9daa794e6bf397f46fd46435afa43ef964380877.svg" width="64" height="12" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div><div data-instant-type="text" class="instant-rich-text i7WNCSh0PCD6JWitZ"><p>Wat een fantastisch apparaat is dit zeg! Ik heb al geruime tijd last van overmatige haargroei op zowel mijn benen als armen, en ik wou dat ik dit IPL apparaat veel eerder had ontdekt. Het zou me echt veel onzekerheid hebben bespaard.</p></div
+                ><div class="ij2WCDLch8wnRlm3E" data-instant-type="container"
+                  ><div class="i1nhKePXVcRVIG5ya" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/2JckyGh9LBzS80hl/review-picture-3.jpg?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/2JckyGh9LBzS80hl/review-picture-3.jpg?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/2JckyGh9LBzS80hl/review-picture-3.jpg?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/2JckyGh9LBzS80hl/review-picture-3.jpg?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/2JckyGh9LBzS80hl/review-picture-3.jpg?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/2JckyGh9LBzS80hl/review-picture-3.jpg?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/2JckyGh9LBzS80hl/review-picture-3.jpg?width=1280" width="4240" height="2384" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div><div data-instant-type="text" class="instant-rich-text imW4PIsKbQE9hzSwW"><p>Dieke</p></div></div
+                ></div
+              ></div
+            ><div class="instant-slider-slide iLj4FXXu9sKIF7p8N" data-instant-type="slider-slide"
+              ><div class="ihVsSAJrXG06lo20o" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/wZSoKf7CNGkTKFdN/product-picture-4.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/wZSoKf7CNGkTKFdN/product-picture-4.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/wZSoKf7CNGkTKFdN/product-picture-4.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/wZSoKf7CNGkTKFdN/product-picture-4.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/wZSoKf7CNGkTKFdN/product-picture-4.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/wZSoKf7CNGkTKFdN/product-picture-4.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/wZSoKf7CNGkTKFdN/product-picture-4.png?width=1280" width="838" height="1484" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div
+              ><div class="icpgV7Xv8cPm3lfGg" data-instant-type="container"
+                ><div class="ieEh2nAoxirVX3DVv" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/DlhJL75oNr8hBpY7/9daa794e6bf397f46fd46435afa43ef964380877.svg" width="64" height="12" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div><div data-instant-type="text" class="instant-rich-text iAvtZcbTvTbpQDRFH"><p>Een aantal weken geleden heb ik dit IPL apparaat van GoSmooth aangeschaft. In het begin was ik sceptisch, omdat tot nu toe niks echt geholpen heeft tegen mijn haargroei. Ik moet zeggen dat de resultaten tot nu toe fantastisch zijn!</p></div
+                ><div class="iDRyYcoJkKNnW40x5" data-instant-type="container"
+                  ><div class="ij8hMgNx6gNtniQAC" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CxnHpzMBf7N43yZD/review-picture-4.jpg?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CxnHpzMBf7N43yZD/review-picture-4.jpg?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CxnHpzMBf7N43yZD/review-picture-4.jpg?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CxnHpzMBf7N43yZD/review-picture-4.jpg?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CxnHpzMBf7N43yZD/review-picture-4.jpg?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CxnHpzMBf7N43yZD/review-picture-4.jpg?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/CxnHpzMBf7N43yZD/review-picture-4.jpg?width=1280" width="2608" height="4240" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div><div data-instant-type="text" class="instant-rich-text iWBRxrBfd4PflUO00"><p>Myriam</p></div></div
+                ></div
+              ></div
+            ><div class="instant-slider-slide iPkT3h21055zVxM5U" data-instant-type="slider-slide"
+              ><div class="iX3eKsCZ5acco3sg1" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/VdSEYhZa8DwQnHSM/product-picture-5.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/VdSEYhZa8DwQnHSM/product-picture-5.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/VdSEYhZa8DwQnHSM/product-picture-5.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/VdSEYhZa8DwQnHSM/product-picture-5.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/VdSEYhZa8DwQnHSM/product-picture-5.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/VdSEYhZa8DwQnHSM/product-picture-5.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/VdSEYhZa8DwQnHSM/product-picture-5.png?width=1280" width="720" height="1244" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div
+              ><div class="iqHGJGLQxTF8rvJtS" data-instant-type="container"
+                ><div class="iDcZUvtuH4zY7bsQ7" data-instant-type="container"><img alt="" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/DlhJL75oNr8hBpY7/9daa794e6bf397f46fd46435afa43ef964380877.svg" width="64" height="12" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div><div data-instant-type="text" class="instant-rich-text i8BOuRkVrzYoixLUn"><p>Inmiddels heb ik mijn scheermesjes ingewisseld voor de GoSmooth Pro en flits ik er wekelijks lekker op los. Het resultaat, minder haren en GEEN bultjes. Echt top dus!</p></div
+                ><div class="iq4NiqEkr6Jp8xm7y" data-instant-type="container"
+                  ><div class="iDXY2MC447c19GHpW" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/M5Oq1obosnQl444M/review-picture-5.jpg?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/M5Oq1obosnQl444M/review-picture-5.jpg?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/M5Oq1obosnQl444M/review-picture-5.jpg?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/M5Oq1obosnQl444M/review-picture-5.jpg?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/M5Oq1obosnQl444M/review-picture-5.jpg?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/M5Oq1obosnQl444M/review-picture-5.jpg?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/M5Oq1obosnQl444M/review-picture-5.jpg?width=1280" width="1848" height="1937" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div><div data-instant-type="text" class="instant-rich-text iVwRa9ixJrkpHcHSj"><p>Pamela</p></div></div
+                ></div
+              ></div
+            ></div
           ></div
-        ><div data-state="closed" class="iUsH088HVXB8OK5EE" data-instant-type="accordion-item"
-          ><button class="iehr6BvCS60uSu1a8" data-instant-type="accordion-header" type="button"
-            ><div class="iGCMwAyZ87xPH3Gqg" data-instant-type="container"
-              ><div class="iM7FuBfDErfNKVAgG" data-instant-type="container"
-                ><div data-instant-type="text" class="instant-rich-text ikNe13zbA3rq5Ap2w"><h3>Kan ik de GoSmooth IPL apparaten gebruiken op elk lichaamsdeel?</h3></div></div
-              ></div
-            ><div data-instant-type="icon" class="iZxP4TKbwtXNUUq8Y">
+        ></div
+      ></div
+    ><div class="iaTynWrqwck9bcsm5" data-instant-type="container" id="iaTynWrqwck9bcsm5"
+      ><div class="ifagckHUDtMKRNqhs" data-instant-type="container"
+        ><div data-instant-type="text" class="instant-rich-text igLKWpLoXLJss6LBf"><p>Veelgestelde vragen</p></div
+        ><div data-instant-type="text" class="instant-rich-text iCrPCrTUdxMXxKhPT"><p>Heb je nog vragen? Wij hebben antwoorden!</p></div></div
+      ><div class="iFHtNua4ICtZCLiT0" data-instant-type="accordion-container" data-is-first-open="true" data-is-multi-open-enabled="false"
+        ><div data-state="open" class="i5avtGZNjmG2jwVW8" data-instant-type="accordion-item"
+          ><button class="is8IWLJB3KGWDh03E" data-instant-type="accordion-header" type="button"
+            ><div class="i7ALSCI69g4IylqtB" data-instant-type="container"
+              ><div data-instant-type="text" class="instant-rich-text i4H6ohGyLQpecnAa3"><p>Hoe vaak moet ik het apparaat gebruiken?</p></div></div
+            ><div data-instant-type="icon" class="iV94VEAkKEcltRmOb">
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                <title>plus</title><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+                <title>x</title><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
               </svg></div></button
-          ><div class="iVvE3imWLw3hyI9GA" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
-            ><div data-instant-type="text" class="instant-rich-text i9NSEJeDs427lQMSS"><h3>Ja, de GoSmooth IPL apparaten kunnen op elk lichaamsdeel gebruikt worden waar haargroei is (inclusief de bikinilijn &amp; vrouwelijke geslachtsdelen).</h3></div></div
+          ><div class="i29jL2IDnYM1t3RgF" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
+            ><div data-instant-type="text" class="instant-rich-text iPDbu4ohK8jKhc7dT"><p>Wij raden aan om het GoSmooth IPL apparaat 1 keer per week te gebruiken. Dit geldt zowel voor de GoSmooth IPL Classic als voor de GoSmooth IPL Pro.</p></div></div
           ></div
-        ><div data-state="closed" class="i3aF9scwb5X2BIBQl" data-instant-type="accordion-item"
-          ><button class="i3GitweJ0SnX8uAy9" data-instant-type="accordion-header" type="button"
-            ><div class="ivKZWdJUeQrQuSccW" data-instant-type="container"
-              ><div class="ixPLizU79ghglQAp6" data-instant-type="container"
-                ><div data-instant-type="text" class="instant-rich-text ibSH0jzOQpkNdVOay"><h3>Op welke stand moet ik het GoSmooth IPL apparaat gebruiken?</h3></div></div
-              ></div
-            ><div data-instant-type="icon" class="ivR8iP2RwdhZiBUj4">
+        ><div data-state="closed" class="ivhQptkJSmREIy6kD" data-instant-type="accordion-item"
+          ><button class="irdfrCaJRSaY26Tho" data-instant-type="accordion-header" type="button"
+            ><div class="i9LjPNh2CyUgMLHBT" data-instant-type="container"
+              ><div data-instant-type="text" class="instant-rich-text iEAhwhigBrD43tlHG"><p>Kan ik het op mijn hele lichaam gebruiken?</p></div></div
+            ><div data-instant-type="icon" class="ixHYe2sPfl2RbnX6N">
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                <title>plus</title><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+                <title>x</title><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
               </svg></div></button
-          ><div class="irbZqgkbOZYxl5Fsw" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
-            ><div data-instant-type="text" class="instant-rich-text iyoY8j2TgMdW1lQ2b"><h3>Voor alle huidtypes raden wij aan om te beginnen op stand één. Als uw huid goed op de behandeling reageert kunt u vervolgens de stand elke week met één stand verhogen. Als de huid 5 uur na de behandeling nog pijnlijk aanvoelt dan raden wij aan om de stand de volgende behandeling te verlagen.</h3><h3></h3><h3>Als u een getinte huid heeft dan raden wij aan om de stand langzamer op te bouwen en extra alert te zijn bij gevoeligheid. Bij een te hoge stand kan en getinte huid namelijk sneller verbranden. Heeft u een donkere huidskleur dan raden wij het af om ons apparaat te gebruiken.</h3></div></div
+          ><div class="iENdB7RggkIzpi4M0" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
+            ><div data-instant-type="text" class="instant-rich-text idMHtwONYain5OuiY"><p>Ja, de GoSmooth IPL apparaten kunnen op elk lichaamsdeel gebruikt worden waar haargroei is (inclusief de bikinilijn &amp; vrouwelijke geslachtsdelen)</p></div></div
           ></div
-        ><div data-state="closed" class="iXeMwgggmwha3R0gM" data-instant-type="accordion-item"
-          ><button class="ilfsGgeJzGBaYZKUv" data-instant-type="accordion-header" type="button"
-            ><div class="ie1IVSJSTzOdUezBq" data-instant-type="container"
-              ><div class="icifMInQQuhQrn5RD" data-instant-type="container"
-                ><div data-instant-type="text" class="instant-rich-text iKPk4mkd7USDCnuzV"><h3>Moet ik me eerst scheren voordat ik het GoSmooth IPL apparaat ga gebruiken?</h3></div></div
-              ></div
-            ><div data-instant-type="icon" class="iIoUHRl6eVH1llvjg">
+        ><div data-state="closed" class="idsoiw9e6CnD1nsAi" data-instant-type="accordion-item"
+          ><button class="iYwo8YQbPG3dtcDwz" data-instant-type="accordion-header" type="button"
+            ><div class="icbUQxjEYNtr8vyXr" data-instant-type="container"
+              ><div data-instant-type="text" class="instant-rich-text iDgfA4EmVD92nlxHp"><p>Op welke stand moet ik het IPL apparaat gebruiken?</p></div></div
+            ><div data-instant-type="icon" class="iPyrZFN2BbsfR0jf6">
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                <title>plus</title><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+                <title>x</title><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
               </svg></div></button
-          ><div class="iqjOmfgPn6rvLQa4k" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
-            ><div data-instant-type="text" class="instant-rich-text iKbbELUzWMaYjjz2p"><h3>Ja, het is noodzakelijk om uw haar te verwijderen voordat u met en IPL behandeling begint. Wij raden aan om 12 tot 24 uur voor een behandeling te scheren. De lichtflitsen kunnen dan het beste de haarzakjes bereiken. Als het haar niet wordt verwijderd, kunnen de lichtflitsen het haarzakje niet bereiken.</h3></div></div
+          ><div class="iijW4j7UM4SZU3vO8" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
+            ><div data-instant-type="text" class="instant-rich-text iUEQSj9NgF5MRdYHE"><p>Voor alle huidtypes raden wij aan om te beginnen op stand één. Als uw huid goed op de behandeling reageert kunt u vervolgens de stand elke week met één stand verhogen. Als de huid 5 uur na de behandeling nog pijnlijk aanvoelt dan raden wij aan om de stand de volgende behandeling te verlagen.</p><p></p><p>Als u een getinte huid heeft dan raden wij aan om de stand langzamer op te bouwen en extra alert te zijn bij gevoeligheid. Bij een te hoge stand kan en getinte huid namelijk sneller verbranden. Heeft u een donkere huidskleur dan raden wij het af om ons apparaat te gebruiken.</p></div></div
           ></div
-        ><div data-state="closed" class="ihyxaEz83979rC4PB" data-instant-type="accordion-item"
-          ><button class="iwMnKK2Ao41i5HNGv" data-instant-type="accordion-header" type="button"
-            ><div class="imkU7sHrIdtGRmCny" data-instant-type="container"
-              ><div class="iyA4lDAfFn5yYO9Rf" data-instant-type="container"
-                ><div data-instant-type="text" class="instant-rich-text izd26TaCX5D2UFMHA"><h3>Is het GoSmooth IPL apparaat veilig?</h3></div></div
-              ></div
-            ><div data-instant-type="icon" class="iCcVntlxnQvDIe3gQ">
+        ><div data-state="closed" class="i4xWtQwAZ8K5wwZtp" data-instant-type="accordion-item"
+          ><button class="iovV63pZvydpn1j6b" data-instant-type="accordion-header" type="button"
+            ><div class="iafnzQtlLLYz1OXWo" data-instant-type="container"
+              ><div data-instant-type="text" class="instant-rich-text iwfkjDrcXss9SPX5w"><p>Moet ik me eerst scheren voordat ik het GoSmooth IPL apparaat ga gebruiken?</p></div></div
+            ><div data-instant-type="icon" class="iXFQVgt0hCA70BRwQ">
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
-                <title>plus</title><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+                <title>x</title><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
               </svg></div></button
-          ><div class="iitaXRVIjImYpz7CU" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
-            ><div data-instant-type="text" class="instant-rich-text i5UNgXuy9Dg9RWVEL"><h3>Het GoSmooth IPL Laser Ontharingsapparaat Pro apparaat is ontworpen om veilig thuis te kunnen gebruiken. Dankzij de huidsensor zullen alleen flitsen worden afgegeven bij 100% contact met de huid. Verder houdt het UV-filter schadelijke straling tegen. Ten slotte bevat het GoSmooth IPL Laser Ontharingsapparaat Pro een displayscherm waarop de flitsstand en het aantal resterende flitsen wordt weergegeven.</h3></div></div
+          ><div class="iuawOzDo1XYOaK9MK" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
+            ><div data-instant-type="text" class="instant-rich-text iLMXjDIDTko9I5BBX"><p>Ja, het is noodzakelijk om uw haar te verwijderen voordat u met en IPL behandeling begint. Wij raden aan om 12 tot 24 uur voor een behandeling te scheren. De lichtflitsen kunnen dan het beste de haarzakjes bereiken. Als het haar niet wordt verwijderd, kunnen de lichtflitsen het haarzakje niet bereiken.</p></div></div
+          ></div
+        ><div data-state="closed" class="iQeV4kiMIBddMLgrI" data-instant-type="accordion-item"
+          ><button class="ifWB4xXyuUheeXtat" data-instant-type="accordion-header" type="button"
+            ><div class="iJLqZjdx8tTQK04uF" data-instant-type="container"
+              ><div data-instant-type="text" class="instant-rich-text iOjfJfxg3fHXeEb8S"><p>Is het GoSmooth IPL apparaat veilig?</p></div></div
+            ><div data-instant-type="icon" class="isEAx2Xq5udQtOtRS">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" class="instant-icon">
+                <title>x</title><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
+              </svg></div></button
+          ><div class="iuLN8djufew4GeuAT" data-instant-type="accordion-content" style="--instant-accordion-content-height:auto;--instant-accordion-content-width:auto"
+            ><div data-instant-type="text" class="instant-rich-text i9Awf3B8ihG5k4jCk"><p>Het GoSmooth IPL Laser Ontharingsapparaat Pro apparaat is ontworpen om veilig thuis te kunnen gebruiken. Dankzij de huidsensor zullen alleen flitsen worden afgegeven bij 100% contact met de huid. </p><p></p><p>Verder houdt het UV-filter schadelijke straling tegen. Ten slotte bevat het GoSmooth IPL Laser Ontharingsapparaat Pro een displayscherm waarop de flitsstand en het aantal resterende flitsen wordt weergegeven.</p></div></div
           ></div
         ></div
       ></div
@@ -445,8 +510,7 @@
             ><div data-instant-type="text" class="instant-rich-text iWD3OQdOnwePcDqgv"><p>Kans maken op een gratis GoSmooth IPL?</p></div
             ><div data-instant-type="text" class="instant-rich-text iFMCTBzMIJ6kAypjI"><p>Iedere maand geven we er eentje weg onder de leden van onze nieuwsbrief. Meld je aan en maak kans!</p></div></div
           ><div schemaId="My4bFI2GCOk7kU5X" data-instant-type="app" class="iMy4bFI2GCOk7kU5X">
-            <div class="klaviyo-form-SgGYUf"></div> </div></div
-        ><div class="iItKH3LwHkcL72XsJ" data-instant-type="container"><img alt="" sizes="(max-width: 1280px) 100vw, 1280px" srcSet="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/5KAiouK4DEH9EAqq/f134d3bf63eaa29d75651ae4984b80e260c813d9.png?width=1080 1080w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/5KAiouK4DEH9EAqq/f134d3bf63eaa29d75651ae4984b80e260c813d9.png?width=828 828w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/5KAiouK4DEH9EAqq/f134d3bf63eaa29d75651ae4984b80e260c813d9.png?width=750 750w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/5KAiouK4DEH9EAqq/f134d3bf63eaa29d75651ae4984b80e260c813d9.png?width=640 640w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/5KAiouK4DEH9EAqq/f134d3bf63eaa29d75651ae4984b80e260c813d9.png?width=360 360w, https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/5KAiouK4DEH9EAqq/f134d3bf63eaa29d75651ae4984b80e260c813d9.png?width=1280 1280w" src="https://cdn.instant.so/sites/JMacah7DHF8TdGVm/assets/5KAiouK4DEH9EAqq/f134d3bf63eaa29d75651ae4984b80e260c813d9.png?width=1280" width="2000" height="2000" class="instant-fill instant-image__fill" style="object-fit:cover" decoding="async" loading="lazy" fetchpriority="auto"></div></div></div
+            <div class="klaviyo-form-SgGYUf"></div> </div></div></div></div
   ></form>
   <!-- prettier-ignore -->
   <script>(()=>{let t=window.Instant||{};if(!t.initializedAppEmbed&&!window.__instant_loading_core){window.__instant_loading_core=!0,t.initializedVersion="3.1.0",t.initialized=!0;let i=()=>{let i=(t,i)=>t.split(".").map(Number).reduce((t,e,n)=>t||e-i.split(".")[n],0),e=[...document.querySelectorAll(".__instant")].map(t=>t.getAttribute("data-instant-version")||"1.0.0").sort(i).pop()||"1.0.0",n=document.createElement("script");n.src="https://client.instant.so/scripts/instant-core.min.js?version="+e,document.body.appendChild(n),t.initializedVersion=e};"loading"!==document.readyState?i():document.addEventListener("DOMContentLoaded",i)}})();</script>
